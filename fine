@@ -1,0 +1,3842 @@
+<script>
+    bigPipe.onPageletArrive({
+    jsmods: {
+        require: [
+            ["AsyncRequestNectarLogging"],
+            ["AsyncData", "resolve", [],
+                ["ChatSidebarInitialDataPreloader", {
+                    result: {
+                        groups: [],
+                        list: ["100006927880763-2", "100006132575384-2", "100002307448642-2", "100008435498303-2", "100004079208555-2", "100011759087900-2", "1437813559-2", "100003645175418-2", "100004452612762-2", "100011949974475-2", "100010079233765-2", "100011889646044-2", "100003615442058-2", "100011917484527-2", "100012216424670-2", "100002376602975-2", "100012150600168-2", "100011729081416-2", "100008889313037-2", "100006372070714-2", "100011954149159-2", "100003129835193-2", "100009957639633-2", "100012053111096-2", "100012853986458-2", "100000364713401-2", "100001214620857-2", "100011013047113-2", "100001653326737-2", "100002146324666-2", "100004203642471-2", "100012729708246-2", "100011759206095-2", "100001077387748-2", "100012906636193-2", "100010324933847-2", "100010771607404-2", "100011956335319-2", "100012893497807-2", "100011417638138-2", "100012169051335-2", "100003012007519-2", "100002724546371-2", "100012104588082-2", "100011637284309-2", "100007474218430-2", "100012337920981-2", "100012867485465-2", "100011603676479-2", "100010083765943-2", "100001711481071-2", "100002457316353-2", "100009555922204-2", "100012669274909-2", "100012026860882-2", "100012872616503-2", "100012589261755-2", "100011041954027-2", "100001016964570-2", "100003682758479-2", "100012411858427-2", "100012005821004-2", "100012012942834-2", "100002504732472-2", "100011430504494-2", "100011679947273-2", "100011742526307-2", "100012850206055-2", "100012798341181-2", "100011197605900-2", "100010735548022-2", "1214886737-2", "100011133754052-2", "100012111768882-2", "100011826785462-2", "100000156044298-2", "100011346818873-2", "100011894687678-2", "100012816726135-2", "100011962424155-2", "100001528816116-2", "100009301525351-2", "100011667647751-2", "100001028507573-2", "100002141317804-2", "100011767176248-2", "100012608447889-2", "100007690808996-2", "100011731225134-2", "100000895361953-2", "100011397460917-2", "100012029470817-2", "100011770910184-2", "100011509759068-2", "100007248452911-2", "100009094987256-2", "100011574886534-2", "100001730001703-2", "1029998259-2", "100011750943064-2", "100012941582893-2", "100012649655537-2", "100012023589471-2", "100009416583846-2", "100007282877861-2", "100011789619529-2", "100011705837371-2", "100012836672345-2", "100009999915351-2", "100004047093354-2", "100011743970702-2", "100012127805484-2", "100008312435251-2", "100011352594242-2", "100011364565975-2", "100011994993996-2", "100012060308164-2", "100012754003890-2", "100012743469447-2", "100012717014299-2", "100012786757622-2", "1322181144-2", "100011364136149-2", "100011597109802-2", "100011216979436-2", "100012547487540-2", "100011675307907-2", "100008369737730-2", "100011715308339-2", "100012616637728-2", "100011502100878-2", "100012097507331-2", "100008867132204-2", "100011610439195-2", "100004127611089-2", "100004438650131-2", "100007170303888-2", "100012176446111-2", "100011383854708-2", "100011321825558-2", "100012303909433-2", "100011768176964-2", "100001705393491-2", "100011415746457-2", "100008435498303-0", "100001653326737-0", "100011768176964-0", "100012185767196-0", "100012185767196-2", "100001705393491-0", "100012176446111-0", "100011415746457-0", "100004127611089-0", "100004438650131-0", "100011383854708-0", "100009416583846-0", "100012836672345-0", "100011731225134-0", "100011574886534-0", "100011364136149-0", "100011610439195-0", "100011364565975-0", "100012097507331-0", "100011509759068-0", "100012754003890-0", "100011675307907-0", "100011994993996-0", "100012060308164-0", "100007170303888-0", "100012303909433-0", "100008369737730-0", "100011502100878-0", "100012743469447-0", "100011770910184-0", "100011743970702-0", "100011750943064-0", "100011321825558-0", "100010226028059-2", "100010226028059-0", "1322181144-0", "100012616637728-0", "100011597109802-0", "100011715308339-0", "100012786757622-0", "100012547487540-0", "100011216979436-0", "100011352594242-0", "100007248452911-0", "100012872616503-0", "100011417638138-0", "100012798341181-0", "1214886737-0", "100012717014299-0", "100012203612047-0", "100012904562242-2", "100012904562242-0", "100011807707498-2", "100011807707498-0", "100011825135659-2", "100011825135659-0", "100011842804691-0", "100011842804691-2", "100008849761298-0", "100011897084499-2", "100011897084499-0", "100012808182715-2", "100012808182715-0", "100011731663484-2", "100011731663484-0", "100011969175610-2", "100011969175610-0", "100008849761298-2", "100011741127172-0", "100011741127172-2", "100012706608409-0", "100012068201456-2", "100012203612047-2", "100011713480732-0", "100011713480732-2", "100012068201456-0", "100012706608409-2", "100012023589471-0", "100008867132204-0", "100009999915351-0", "100010735548022-0", "100001016964570-0", "100007282877861-0", "100011667647751-0", "100012127805484-0", "100012578417233-2", "100011728077239-0", "100012578417233-0", "100011728077239-2", "100011949974475-0", "100004047093354-0", "100011430504494-0", "100011197605900-0", "100012029470817-0", "100012816726135-0", "100011789619529-0", "100008312435251-0", "100009094987256-0", "100011705837371-0", "100011962424155-0", "100011767176248-0", "100001214620857-0", "1437813559-0", "100002307448642-0", "100011679947273-0", "100011013047113-0", "100006927880763-0", "100011041954027-0", "100011346818873-0", "100009301525351-0", "100012012942834-0", "100012941582893-0", "100006372070714-0", "100011729081416-0", "100011954149159-0", "100011627597101-0", "100011627597101-2", "100001028507573-0", "100011637284309-0", "100012411858427-0", "100012853986458-0", "100010083765943-0", "100012729708246-0", "100012906636193-0", "100012893497807-0", "100012053111096-0", "100012150600168-0", "100010079233765-0", "100011889646044-0", "100003012007519-0", "100003645175418-0", "100012169051335-0", "100012026860882-0", "100012216424670-0", "100012337920981-0", "100011826785462-0", "100011956335319-0", "100012649655537-0", "100011133754052-0", "100011742526307-0", "100001528816116-0", "100004203642471-0", "100004452612762-0", "100006132575384-0", "100004079208555-0", "100011759087900-0", "100000364713401-0", "100003615442058-0", "100010324933847-0", "100001077387748-0", "100003129835193-0", "100011759206095-0", "100010771607404-0", "100001711481071-0", "100009957639633-0", "100012589261755-0", "100002724546371-0", "100011917484527-0", "100012111768882-0", "100002504732472-0", "100000156044298-0", "100012608447889-0", "100012850206055-0", "100012104588082-0", "100012867485465-0", "100012669274909-0", "100011894687678-0", "100011603676479-0", "100002376602975-0", "100009555922204-0", "100002457316353-0", "100007474218430-0", "100012005821004-0", "100007690808996-0", "100002146324666-0", "100008889313037-0", "100000895361953-0", "100011397460917-0", "100001730001703-0", "1029998259-0", "100002141317804-0", "100003682758479-0", "1427594218-2", "100014437020286-2", "1427594218-0", "100014437020286-0"],
+                        shortProfiles: {
+                            "100000364713401": {
+                                id: "100000364713401",
+                                name: "Kranti Duvvala",
+                                firstName: "Kranti",
+                                vanity: "kranti.duvvala",
+                                thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/12342755_1016162918405856_6472729878319206497_n.jpg?oh=ee09cfe2f30fe55d6a4fcefe14432c1e&oe=58F84D3A",
+                                uri: "https: //www.facebook.com/kranti.duvvala",
+                                gender: 2,
+                                i18nGender: 16777216,
+                                type: "friend",
+                                is_friend: true,
+                                mThumbSrcSmall: null,
+                                mThumbSrcLarge: null,
+                                dir: null,
+                                searchTokens: ["Duvvala", "Kranti"],
+                                alternateName: "",
+                                is_nonfriend_messenger_contact: false
+                            },
+                            "100002457316353": {
+                                id: "100002457316353",
+                                name: "Mohammed Baba Khan",
+                                firstName: "Mohammed",
+                                vanity: "baba.khan.3956",
+                                thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/c0.0.32.32/p32x32/14355764_1134704086621491_3380828134561959271_n.jpg?oh=f6a269d45e4ec4c5e8b153f16090b6ee&oe=58B1BE6D",
+                                uri: "https: //www.facebook.com/baba.khan.3956",
+                                gender: 2,
+                                i18nGender: 16777216,
+                                type: "friend",
+                                is_friend: true,
+                                mThumbSrcSmall: null,
+                                mThumbSrcLarge: null,
+                                dir: null,
+                                searchTokens: ["Khan", "Mohammed"],
+                                alternateName: "Mohammed Baba Khan",
+                                is_nonfriend_messenger_contact: false
+                            },
+                            "100011041954027": {
+                                id: "100011041954027",
+                                name: "Shivaji Lokhande",
+                                firstName: "Shivaji",
+                                vanity: "shivaji.lokhande.7965",
+                                thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/1347_105653143146084_6187411085022215922_n.jpg?oh=fbe92dd7c9d2638cdfe05015701b918e&oe=58F83480",
+                                uri: "https: //www.facebook.com/shivaji.lokhande.7965",
+                                gender: 2,
+                                i18nGender: 16777216,
+                                type: "friend",
+                                is_friend: true,
+                                mThumbSrcSmall: null,
+                                mThumbSrcLarge: null,
+                                dir: null,
+                                searchTokens: ["Lokhande", "Shivaji"],
+                                alternateName: "",
+                                is_nonfriend_messenger_contact: false
+                            },
+                            "100001730001703": {
+                                id: "100001730001703",
+                                name: "Sai Kiran",
+                                firstName: "Sai",
+                                vanity: "TSRSSK",
+                                thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/15319267_1243160115751643_5664642692993700167_n.jpg?oh=93d892c4e5a60e4841923bea7fdbd4db&oe=58EE6790",
+                                uri: "https: //www.facebook.com/TSRSSK",
+                                gender: 2,
+                                i18nGender: 16777216,
+                                type: "friend",
+                                is_friend: true,
+                                mThumbSrcSmall: null,
+                                mThumbSrcLarge: null,
+                                dir: null,
+                                searchTokens: ["Kiran", "Sai"],
+                                alternateName: "",
+                                is_nonfriend_messenger_contact: false
+                            },
+                            "100008435498303": {
+                                id: "100008435498303",
+                                name: "Srikanth Malige",
+                                firstName: "Srikanth",
+                                vanity: "",
+                                thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/15319108_1679008262390341_2027221611638917752_n.jpg?oh=5c124ca729562af58f105be55c05891f&oe=58F983BC",
+                                uri: "https: //www.facebook.com/profile.php?id=100008435498303",
+                                gender: 2,
+                                i18nGender: 16777216,
+                                type: "friend",
+                                is_friend: true,
+                                mThumbSrcSmall: null,
+                                mThumbSrcLarge: null,
+                                dir: null,
+                                searchTokens: ["Malige", "Srikanth"],
+                                alternateName: "",
+                                is_nonfriend_messenger_contact: false
+                            },
+                            "100001653326737": {
+                                id: "100001653326737",
+                                name: "Gordy Powell",
+                                firstName: "Gordy",
+                                vanity: "gordy.powell.14",
+                                thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/14595804_1138417159556717_8383775321622351996_n.jpg?oh=5e4fb192b8b024263430108f20533060&oe=58AF4D55",
+                                uri: "https: //www.facebook.com/gordy.powell.14",
+                                gender: 2,
+                                i18nGender: 16777216,
+                                type: "friend",
+                                is_friend: true,
+                                mThumbSrcSmall: null,
+                                mThumbSrcLarge: null,
+                                dir: null,
+                                searchTokens: ["Powell", "Gordy"],
+                                alternateName: "Fame",
+                                is_nonfriend_messenger_contact: false
+                            },
+                            "100011768176964": {
+                                id: "100011768176964",
+                                name: "Sumit Mishra",
+                                firstName: "Sumit",
+                                vanity: "sumitt.mishraa",
+                                thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/c4.0.32.32/p32x32/14224692_226383151097289_5395681715824946451_n.jpg?oh=32c5924458ce18a653c2a1d8ffeb26d7&oe=58DF3D45",
+                                uri: "https: //www.facebook.com/sumitt.mishraa",
+                                gender: 2,
+                                i18nGender: 16777216,
+                                type: "friend",
+                                is_friend: true,
+                                mThumbSrcSmall: null,
+                                mThumbSrcLarge: null,
+                                dir: null,
+                                searchTokens: ["Mishra", "Sumit"],
+                                alternateName: "",
+                                is_nonfriend_messenger_contact: false
+                            },
+                            "100001705393491": {
+                                id: "100001705393491",
+                                name: "Jhansi Reddy",
+                                firstName: "Jhansi",
+                                vanity: "rpteamwork",
+                                thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/15193647_1213513085382193_7681152372592550309_n.jpg?oh=267c480d62ebb389c75610f8cdfb9cd2&oe=58F8D642",
+                                uri: "https: //www.facebook.com/rpteamwork",
+                                gender: 1,
+                                i18nGender: 33554432,
+                                type: "friend",
+                                is_friend: true,
+                                mThumbSrcSmall: null,
+                                mThumbSrcLarge: null,
+                                dir: null,
+                                searchTokens: ["Reddy", "Jhansi"],
+                                alternateName: "",
+                                is_nonfriend_messenger_contact: false
+                            },
+                            "100012176446111": {
+                                id: "100012176446111",
+                                name: "Priya Roy",
+                                firstName: "Priya",
+                                vanity: "",
+                                thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/13265922_128254804257067_3434225578775094204_n.jpg?oh=241472d07b82476efdb9636291961f34&oe=58F27E25",
+                                uri: "https: //www.facebook.com/profile.php?id=100012176446111",
+                                gender: 1,
+                                i18nGender: 33554432,
+                                type: "friend",
+                                is_friend: true,
+                                mThumbSrcSmall: null,
+                                mThumbSrcLarge: null,
+                                dir: null,
+                                searchTokens: ["Roy", "Priya"],
+                                alternateName: "",
+                                is_nonfriend_messenger_contact: false
+                            },
+                            "100011415746457": {
+                                id: "100011415746457",
+                                name: "Sriram Joshi",
+                                firstName: "Sriram",
+                                vanity: "sriram.joshi.98",
+                                thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/c0.0.32.32/p32x32/13879440_340902466300275_4826195918229411688_n.jpg?oh=72f4be5c5212b828b877e62538c07cd3&oe=58E70BCF",
+                                uri: "https: //www.facebook.com/sriram.joshi.98",
+                                gender: 2,
+                                i18nGender: 16777216,
+                                type: "friend",
+                                is_friend: true,
+                                mThumbSrcSmall: null,
+                                mThumbSrcLarge: null,
+                                dir: null,
+                                searchTokens: ["Joshi", "Sriram"],
+                                alternateName: "",
+                                is_nonfriend_messenger_contact: false
+                            },
+                            "100004127611089": {
+                                id: "100004127611089",
+                                name: "Seema Singh",
+                                firstName: "Seema",
+                                vanity: "",
+                                thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/c0.0.32.32/p32x32/15192627_753929004754680_7029634131245500736_n.jpg?oh=dd711969f2a375978cf757ee180fa101&oe=58EFF173",
+                                uri: "https: //www.facebook.com/profile.php?id=100004127611089",
+                                gender: 1,
+                                i18nGender: 33554432,
+                                type: "friend",
+                                is_friend: true,
+                                mThumbSrcSmall: null,
+                                mThumbSrcLarge: null,
+                                dir: null,
+                                searchTokens: ["Singh", "Seema"],
+                                alternateName: "",
+                                is_nonfriend_messenger_contact: false
+                            },
+                            "100004438650131": {
+                                id: "100004438650131",
+                                name: "Şům Êđh",
+                                firstName: "Şům",
+                                vanity: "sumedhrock",
+                                thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/c0.4.32.32/p32x32/15232141_727019170789365_2098630418132011563_n.jpg?oh=6c2ee3603079d692ce9bae3c9586e7e9&oe=58EA9866",
+                                uri: "https: //www.facebook.com/sumedhrock",
+                                gender: 2,
+                                i18nGender: 16777216,
+                                type: "friend",
+                                is_friend: true,
+                                mThumbSrcSmall: null,
+                                mThumbSrcLarge: null,
+                                dir: null,
+                                searchTokens: ["Êđh", "Şům"],
+                                alternateName: "",
+                                is_nonfriend_messenger_contact: false
+                            },
+                            "100011383854708": {
+                                id: "100011383854708",
+                                name: "Choae Dile Mon",
+                                firstName: "Choae Dile",
+                                vanity: "mdmonna.mia.543",
+                                thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/15400473_434044720318319_2953989439946591684_n.jpg?oh=06ab045b220abb2b052be1ffa37aa2f3&oe=58F8752E",
+                                uri: "https: //www.facebook.com/mdmonna.mia.543",
+                                gender: 2,
+                                i18nGender: 16777216,
+                                type: "friend",
+                                is_friend: true,
+                                mThumbSrcSmall: null,
+                                mThumbSrcLarge: null,
+                                dir: null,
+                                searchTokens: ["Mon", "Choae", "Dile"],
+                                alternateName: "",
+                                is_nonfriend_messenger_contact: false
+                            },
+                            "100009416583846": {
+                                id: "100009416583846",
+                                name: "Preeti Thakur",
+                                firstName: "Preeti",
+                                vanity: "",
+                                thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/12928117_1603426436647894_4150421521638613715_n.jpg?oh=3cab11d033e920ef69dce8d8b97048d1&oe=58DF9645",
+                                uri: "https: //www.facebook.com/profile.php?id=100009416583846",
+                                gender: 1,
+                                i18nGender: 33554432,
+                                type: "friend",
+                                is_friend: true,
+                                mThumbSrcSmall: null,
+                                mThumbSrcLarge: null,
+                                dir: null,
+                                searchTokens: ["Thakur", "Preeti"],
+                                alternateName: "",
+                                is_nonfriend_messenger_contact: false
+                            },
+                            "100012836672345": {
+                                id: "100012836672345",
+                                name: "Ragini Mishra",
+                                firstName: "Ragini",
+                                vanity: "ragini.mishra.75248",
+                                thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/c0.11.32.32/p32x32/15355738_225163457921542_1536761016788929301_n.jpg?oh=e0b13d088942fd8b5f8f8abccddcfd92&oe=58FAC8C0",
+                                uri: "https: //www.facebook.com/ragini.mishra.75248",
+                                gender: 1,
+                                i18nGender: 33554432,
+                                type: "friend",
+                                is_friend: true,
+                                mThumbSrcSmall: null,
+                                mThumbSrcLarge: null,
+                                dir: null,
+                                searchTokens: ["Mishra", "Ragini"],
+                                alternateName: "",
+                                is_nonfriend_messenger_contact: false
+                            },
+                            "100011731225134": {
+                                id: "100011731225134",
+                                name: "Sajina Khatun",
+                                firstName: "Sajina",
+                                vanity: "sajina.khatun.77",
+                                thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/13087511_151218551945851_2925402798016831887_n.jpg?oh=a0afb478be1501b9c6b261b2f7632e96&oe=58E98B76",
+                                uri: "https: //www.facebook.com/sajina.khatun.77",
+                                gender: 1,
+                                i18nGender: 33554432,
+                                type: "friend",
+                                is_friend: true,
+                                mThumbSrcSmall: null,
+                                mThumbSrcLarge: null,
+                                dir: null,
+                                searchTokens: ["Khatun", "Sajina"],
+                                alternateName: "",
+                                is_nonfriend_messenger_contact: false
+                            },
+                            "100011574886534": {
+                                id: "100011574886534",
+                                name: "Kelly Cristina",
+                                firstName: "Kelly",
+                                vanity: "",
+                                thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/l/t1.0-1/p32x32/13241363_179432375785924_5516901110670056762_n.jpg?oh=85456adbea611cc9d035cd5249079a03&oe=58E7F273",
+                                uri: "https: //www.facebook.com/profile.php?id=100011574886534",
+                                gender: 1,
+                                i18nGender: 33554432,
+                                type: "friend",
+                                is_friend: true,
+                                mThumbSrcSmall: null,
+                                mThumbSrcLarge: null,
+                                dir: null,
+                                searchTokens: ["Cristina", "Kelly"],
+                                alternateName: "",
+                                is_nonfriend_messenger_contact: false
+                            },
+                            "100011364136149": {
+                                id: "100011364136149",
+                                name: "Kìllér ßøy",
+                                firstName: "Kìllér",
+                                vanity: "ritika.rajput.169067",
+                                thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/15541664_439292436459557_5470804855208810259_n.jpg?oh=c01adc7a3d4560df24bf25b7f99430d0&oe=58DD6670",
+                                uri: "https: //www.facebook.com/ritika.rajput.169067",
+                                gender: 2,
+                                i18nGender: 16777216,
+                                type: "friend",
+                                is_friend: true,
+                                mThumbSrcSmall: null,
+                                mThumbSrcLarge: null,
+                                dir: null,
+                                searchTokens: ["ßøy", "Kìllér"],
+                                alternateName: "",
+                                is_nonfriend_messenger_contact: false
+                            },
+                            "100011610439195": {
+                                id: "100011610439195",
+                                name: "Neetu Gupta",
+                                firstName: "Neetu",
+                                vanity: "neetu.gupta.77736310",
+                                thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/12987123_149154692148211_8027524458720981093_n.jpg?oh=bf1f485056a1856ee0752bb51ae0b7f7&oe=58E178B3",
+                                uri: "https: //www.facebook.com/neetu.gupta.77736310",
+                                gender: 1,
+                                i18nGender: 33554432,
+                                type: "friend",
+                                is_friend: true,
+                                mThumbSrcSmall: null,
+                                mThumbSrcLarge: null,
+                                dir: null,
+                                searchTokens: ["Gupta", "Neetu"],
+                                alternateName: "no inbox please",
+                                is_nonfriend_messenger_contact: false
+                            },
+                            "100011364565975": {
+                                id: "100011364565975",
+                                name: "Shiela Mae R. Lopez",
+                                firstName: "Shiela Mae R.",
+                                vanity: "",
+                                thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/c0.3.32.32/p32x32/15401151_429592310762917_6819472012045982815_n.jpg?oh=ae9d2b601a5898582c5d8c6a4b016a23&oe=58F79919",
+                                uri: "https: //www.facebook.com/profile.php?id=100011364565975",
+                                gender: 1,
+                                i18nGender: 33554432,
+                                type: "friend",
+                                is_friend: true,
+                                mThumbSrcSmall: null,
+                                mThumbSrcLarge: null,
+                                dir: null,
+                                searchTokens: ["Lopez", "Shiela", "Mae", "R."],
+                                alternateName: "",
+                                is_nonfriend_messenger_contact: false
+                            },
+                            "100012097507331": {
+                                id: "100012097507331",
+                                name: "Priya Sharma",
+                                firstName: "Priya",
+                                vanity: "",
+                                thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/13174129_118343421912241_6796186015583466741_n.jpg?oh=8cd788d6639ad1d447a376e66af4c8f6&oe=58E2A7A0",
+                                uri: "https: //www.facebook.com/profile.php?id=100012097507331",
+                                gender: 1,
+                                i18nGender: 33554432,
+                                type: "friend",
+                                is_friend: true,
+                                mThumbSrcSmall: null,
+                                mThumbSrcLarge: null,
+                                dir: null,
+                                searchTokens: ["Sharma", "Priya"],
+                                alternateName: "im ziddi",
+                                is_nonfriend_messenger_contact: false
+                            },
+                            "100011509759068": {
+                                id: "100011509759068",
+                                name: "Vinita Shukla",
+                                firstName: "Vinita",
+                                vanity: "",
+                                thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/12933089_161305140929810_1910685225253724386_n.jpg?oh=ae09a9bee7a751f6a277884aa72e3930&oe=58E60EC0",
+                                uri: "https: //www.facebook.com/profile.php?id=100011509759068",
+                                gender: 1,
+                                i18nGender: 33554432,
+                                type: "friend",
+                                is_friend: true,
+                                mThumbSrcSmall: null,
+                                mThumbSrcLarge: null,
+                                dir: null,
+                                searchTokens: ["Shukla", "Vinita"],
+                                alternateName: "",
+                                is_nonfriend_messenger_contact: false
+                            },
+                            "100012754003890": {
+                                id: "100012754003890",
+                                name: "Nisha Sharma",
+                                firstName: "Nisha",
+                                vanity: "",
+                                thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/14370213_184497751985357_9128301902731353709_n.jpg?oh=7f101e3b6a012f95dd99729bf88fc8cc&oe=58DF016C",
+                                uri: "https: //www.facebook.com/profile.php?id=100012754003890",
+                                gender: 1,
+                                i18nGender: 33554432,
+                                type: "friend",
+                                is_friend: true,
+                                mThumbSrcSmall: null,
+                                mThumbSrcLarge: null,
+                                dir: null,
+                                searchTokens: ["Sharma", "Nisha"],
+                                alternateName: "",
+                                is_nonfriend_messenger_contact: false
+                            },
+                            "100011675307907": {
+                                id: "100011675307907",
+                                name: "Sara Pineda",
+                                firstName: "Sara",
+                                vanity: "sara.pineda.7712",
+                                thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/15589688_325969444468896_6246178357662338241_n.jpg?oh=a595b81a49380a93aa547370f2d3f1e2&oe=58FBB9B8",
+                                uri: "https: //www.facebook.com/sara.pineda.7712",
+                                gender: 1,
+                                i18nGender: 33554432,
+                                type: "friend",
+                                is_friend: true,
+                                mThumbSrcSmall: null,
+                                mThumbSrcLarge: null,
+                                dir: null,
+                                searchTokens: ["Pineda", "Sara"],
+                                alternateName: "",
+                                is_nonfriend_messenger_contact: false
+                            },
+                            "100011994993996": {
+                                id: "100011994993996",
+                                name: "Sapna Form Haryanvi Dancer",
+                                firstName: "Sapna Form Haryanvi",
+                                vanity: "sapnaformharyanvi.dancer",
+                                thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/13010694_102070810202752_7238327224618019256_n.jpg?oh=0ab0a124f3b9e483ba473fc05e31d13f&oe=58DF62CA",
+                                uri: "https: //www.facebook.com/sapnaformharyanvi.dancer",
+                                gender: 1,
+                                i18nGender: 33554432,
+                                type: "friend",
+                                is_friend: true,
+                                mThumbSrcSmall: null,
+                                mThumbSrcLarge: null,
+                                dir: null,
+                                searchTokens: ["Dancer", "Sapna", "Form", "Haryanvi"],
+                                alternateName: "",
+                                is_nonfriend_messenger_contact: false
+                            },
+                            "100012060308164": {
+                                id: "100012060308164",
+                                name: "Vishnu Priya",
+                                firstName: "Vishnu",
+                                vanity: "",
+                                thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/13873252_172315089847167_1078314578557529694_n.jpg?oh=e908eddb74ca96398cc668187d6d65c8&oe=58F95D68",
+                                uri: "https: //www.facebook.com/profile.php?id=100012060308164",
+                                gender: 1,
+                                i18nGender: 33554432,
+                                type: "friend",
+                                is_friend: true,
+                                mThumbSrcSmall: null,
+                                mThumbSrcLarge: null,
+                                dir: null,
+                                searchTokens: ["Priya", "Vishnu"],
+                                alternateName: "malu ",
+                                is_nonfriend_messenger_contact: false
+                            },
+                            "100007170303888": {
+                                id: "100007170303888",
+                                name: "Rekha Choubey",
+                                firstName: "Rekha",
+                                vanity: "rekhachoubey.rekhachoubey",
+                                thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/15337425_1787781984804128_7564419075398797622_n.jpg?oh=c9be945c710584d1646925dbd7974c3b&oe=58E3B171",
+                                uri: "https: //www.facebook.com/rekhachoubey.rekhachoubey",
+                                gender: 1,
+                                i18nGender: 33554432,
+                                type: "friend",
+                                is_friend: true,
+                                mThumbSrcSmall: null,
+                                mThumbSrcLarge: null,
+                                dir: null,
+                                searchTokens: ["Choubey", "Rekha"],
+                                alternateName: "",
+                                is_nonfriend_messenger_contact: false
+                            },
+                            "100012303909433": {
+                                id: "100012303909433",
+                                name: "Muthukrishnan Murugesan",
+                                firstName: "Muthukrishnan",
+                                vanity: "muthukrishnan.murugesan.7",
+                                thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/13754656_163895754030554_3911700186583905346_n.jpg?oh=0de5966913f92c39f4031e87bd05ad22&oe=58FA0911",
+                                uri: "https: //www.facebook.com/muthukrishnan.murugesan.7",
+                                gender: 2,
+                                i18nGender: 16777216,
+                                type: "friend",
+                                is_friend: true,
+                                mThumbSrcSmall: null,
+                                mThumbSrcLarge: null,
+                                dir: null,
+                                searchTokens: ["Murugesan", "Muthukrishnan"],
+                                alternateName: "",
+                                is_nonfriend_messenger_contact: false
+                            },
+                            "100008369737730": {
+                                id: "100008369737730",
+                                name: "Chandrakala B O",
+                                firstName: "Chandrakala B O",
+                                vanity: "bochandrakala.orse",
+                                thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/c0.0.32.32/p32x32/14191995_1814922822130025_5584386936980037605_n.jpg?oh=092a4788c2a5e26eb877e49ebf883f5b&oe=58E43844",
+                                uri: "https: //www.facebook.com/bochandrakala.orse",
+                                gender: 1,
+                                i18nGender: 33554432,
+                                type: "friend",
+                                is_friend: true,
+                                mThumbSrcSmall: null,
+                                mThumbSrcLarge: null,
+                                dir: null,
+                                searchTokens: ["O", "Chandrakala", "B"],
+                                alternateName: "",
+                                is_nonfriend_messenger_contact: false
+                            },
+                            "100011502100878": {
+                                id: "100011502100878",
+                                name: "Margie Degracia",
+                                firstName: "Margie",
+                                vanity: "margie.degracia.1",
+                                thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/14938344_298978290495572_9102136476484286855_n.jpg?oh=03655967ba6af7cd6b67cebd43ea7d80&oe=58DCDA3B",
+                                uri: "https: //www.facebook.com/margie.degracia.1",
+                                gender: 1,
+                                i18nGender: 33554432,
+                                type: "friend",
+                                is_friend: true,
+                                mThumbSrcSmall: null,
+                                mThumbSrcLarge: null,
+                                dir: null,
+                                searchTokens: ["Degracia", "Margie"],
+                                alternateName: "",
+                                is_nonfriend_messenger_contact: false
+                            },
+                            "100012743469447": {
+                                id: "100012743469447",
+                                name: "Nidhi Mishra",
+                                firstName: "Nidhi",
+                                vanity: "",
+                                thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/13620107_111956782572437_6727222367780911197_n.jpg?oh=a39215a104f38e713daae6b4df26f5eb&oe=58AFAA21",
+                                uri: "https: //www.facebook.com/profile.php?id=100012743469447",
+                                gender: 1,
+                                i18nGender: 33554432,
+                                type: "friend",
+                                is_friend: true,
+                                is_birthday: true,
+                                mThumbSrcSmall: null,
+                                mThumbSrcLarge: null,
+                                dir: null,
+                                searchTokens: ["Mishra", "Nidhi"],
+                                alternateName: "",
+                                is_nonfriend_messenger_contact: false
+                            },
+                            "100011770910184": {
+                                id: "100011770910184",
+                                name: "Rajni Patil",
+                                firstName: "Rajni",
+                                vanity: "rajni.patil.7334",
+                                thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/c0.5.32.32/p32x32/13006585_133434167058946_7466207134491819175_n.jpg?oh=d9d1974aad4a24c47755e5d2e843e5ab&oe=58DCC03A",
+                                uri: "https: //www.facebook.com/rajni.patil.7334",
+                                gender: 1,
+                                i18nGender: 33554432,
+                                type: "friend",
+                                is_friend: true,
+                                mThumbSrcSmall: null,
+                                mThumbSrcLarge: null,
+                                dir: null,
+                                searchTokens: ["Patil", "Rajni"],
+                                alternateName: "",
+                                is_nonfriend_messenger_contact: false
+                            },
+                            "100011743970702": {
+                                id: "100011743970702",
+                                name: "Priya Singh",
+                                firstName: "Priya",
+                                vanity: "",
+                                thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/12107192_143062999428498_3882233458923437108_n.jpg?oh=7f62d024d0ca96d04cb6e5044b670763&oe=58F2E279",
+                                uri: "https: //www.facebook.com/profile.php?id=100011743970702",
+                                gender: 1,
+                                i18nGender: 33554432,
+                                type: "friend",
+                                is_friend: true,
+                                mThumbSrcSmall: null,
+                                mThumbSrcLarge: null,
+                                dir: null,
+                                searchTokens: ["Singh", "Priya"],
+                                alternateName: "priyu",
+                                is_nonfriend_messenger_contact: false
+                            },
+                            "100011750943064": {
+                                id: "100011750943064",
+                                name: "Sonam Dixit",
+                                firstName: "Sonam",
+                                vanity: "sonam.dixit.731",
+                                thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/c0.5.32.32/p32x32/1915768_104492043285827_6158817467152294392_n.jpg?oh=7e2339100195f87fc232f3e9a170e97c&oe=58F66F4D",
+                                uri: "https: //www.facebook.com/sonam.dixit.731",
+                                gender: 1,
+                                i18nGender: 33554432,
+                                type: "friend",
+                                is_friend: true,
+                                mThumbSrcSmall: null,
+                                mThumbSrcLarge: null,
+                                dir: null,
+                                searchTokens: ["Dixit", "Sonam"],
+                                alternateName: "",
+                                is_nonfriend_messenger_contact: false
+                            },
+                            "100011321825558": {
+                                id: "100011321825558",
+                                name: "Excilent Boy Anik",
+                                firstName: "Excilent Boy",
+                                vanity: "excilentboy.anik",
+                                thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/c0.0.32.32/p32x32/15541207_332183500502375_796612404719437031_n.jpg?oh=e9e31aa3f87ce3c8183ea28741d2c3c1&oe=58FD30D1",
+                                uri: "https: //www.facebook.com/excilentboy.anik",
+                                gender: 2,
+                                i18nGender: 16777216,
+                                type: "friend",
+                                is_friend: true,
+                                mThumbSrcSmall: null,
+                                mThumbSrcLarge: null,
+                                dir: null,
+                                searchTokens: ["Anik", "Excilent", "Boy"],
+                                alternateName: "",
+                                is_nonfriend_messenger_contact: false
+                            },
+                            "1322181144": {
+                                id: "1322181144",
+                                name: "Rob Hannley",
+                                firstName: "Rob",
+                                vanity: "hannley",
+                                thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/11214239_10207164286528484_2563147337063930631_n.jpg?oh=2e841b041ad53efc285efc32e9d82752&oe=58EDBDB1",
+                                uri: "https: //www.facebook.com/hannley",
+                                gender: 2,
+                                i18nGender: 16777216,
+                                type: "friend",
+                                is_friend: true,
+                                mThumbSrcSmall: null,
+                                mThumbSrcLarge: null,
+                                dir: null,
+                                searchTokens: ["Hannley", "Rob"],
+                                alternateName: "",
+                                is_nonfriend_messenger_contact: false
+                            },
+                            "100012616637728": {
+                                id: "100012616637728",
+                                name: "Narayan Swamy",
+                                firstName: "Narayan",
+                                vanity: "narayan.swamy.334839",
+                                thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/c0.1.32.32/p32x32/15078854_220310158399537_2147810258804927054_n.jpg?oh=7056b12734e3e1161b236fafe0528b27&oe=58E674E0",
+                                uri: "https: //www.facebook.com/narayan.swamy.334839",
+                                gender: 2,
+                                i18nGender: 16777216,
+                                type: "friend",
+                                is_friend: true,
+                                mThumbSrcSmall: null,
+                                mThumbSrcLarge: null,
+                                dir: null,
+                                searchTokens: ["Swamy", "Narayan"],
+                                alternateName: "",
+                                is_nonfriend_messenger_contact: false
+                            },
+                            "100011597109802": {
+                                id: "100011597109802",
+                                name: "Pooja Mehra",
+                                firstName: "Pooja",
+                                vanity: "",
+                                thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/12494697_118312618565308_4176422464500305565_n.jpg?oh=af9bb79ed19e57d0d3ac0759d4e30420&oe=58E747AE",
+                                uri: "https: //www.facebook.com/profile.php?id=100011597109802",
+                                gender: 1,
+                                i18nGender: 33554432,
+                                type: "friend",
+                                is_friend: true,
+                                mThumbSrcSmall: null,
+                                mThumbSrcLarge: null,
+                                dir: null,
+                                searchTokens: ["Mehra", "Pooja"],
+                                alternateName: "",
+                                is_nonfriend_messenger_contact: false
+                            },
+                            "100012185767196": {
+                                id: 0,
+                                firstName: "Facebook User",
+                                gender: 7,
+                                name: "Facebook User",
+                                thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/c9.0.32.32/p32x32/10645251_10150004552801937_4553731092814901385_n.jpg?oh=d0440d3b1bdd8bca1dc3edc11aa865ec&oe=58E0FB26",
+                                type: "user"
+                            },
+                            "100010226028059": {
+                                id: 0,
+                                firstName: "Facebook User",
+                                gender: 7,
+                                name: "Facebook User",
+                                thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/c9.0.32.32/p32x32/10645251_10150004552801937_4553731092814901385_n.jpg?oh=d0440d3b1bdd8bca1dc3edc11aa865ec&oe=58E0FB26",
+                                type: "user"
+                            }
+                        },
+                        nearby: []
+                    }
+                }],
+                []
+            ]
+        ],
+        define: []
+    },
+    resource_map: {
+        gIHqy: {
+            type: "js",
+            src: "https: //www.facebook.com/rsrc.php/v3/ya/r/_FeGcrlSWmo.js",
+            crossOrigin: 1
+        }
+    },
+    allResources: ["smMCF", "Vx1iU", "q5KTO", "Rp3Bl", "gIHqy"],
+    displayResources: ["Vx1iU"],
+    id: "async_data_preloader_ChatSidebarInitialDataPreloader",
+    phase: 3
+    })
+    }
+    ), "onPageletArrive async_data_preloader_ChatSidebarInitialDataPreloader", {
+        "root": true,
+        "pagelet": "async_data_preloader_ChatSidebarInitialDataPreloader"
+    }
+    )();
+    bigPipe.onPageletArrive({
+    content: {
+        pagelet_megaphone: ""
+    },
+    jsmods: {
+        require: [
+            ["AsyncRequestNectarLogging"]
+        ],
+        define: []
+    },
+    allResources: ["smMCF", "Vx1iU", "q5KTO", "Rp3Bl"],
+    displayResources: ["Vx1iU"],
+    id: "pagelet_megaphone",
+    phase: 3
+    })
+    }
+    ), "onPageletArrive pagelet_megaphone", {
+        "root": true,
+        "pagelet": "pagelet_megaphone"
+    }
+    )();
+    bigPipe.onPageletArrive({
+    is_last: true,
+    last_pagelet: true,
+    content: {
+        more_pager_pagelet_585a3ed16fc602b27008551: {
+            container_id: "u_0_2p"
+        }
+    },
+    jsmods: {
+        elements: [
+            ["__elem_5e2b0b2b_ps_0_0_0", "u_ps_0_0_j", 1],
+            ["__elem_a588f507_ps_0_0_3", "u_ps_0_0_k", 1]
+        ],
+        require: [
+            ["LitestandStreamTailLoader", "createPager", ["__elem_5e2b0b2b_ps_0_0_0", "__elem_a588f507_ps_0_0_3"],
+                [{
+                        cursor: "MTQ4MjMwOTMyOToxNDgyMzA5MzI5OjI6NjgwMDYxMTcxOTI5Nzg3NTY1NDoxNDgyMzA5MzI5OjYzNjY0NzAwOTEzMzQ1ODY2Nzg=",
+                        pagerElement: {
+                            __m: "__elem_5e2b0b2b_ps_0_0_0"
+                        },
+                        pagerConfig: "{\
+                        "edge\": null,\"source_id\": null,\"section_id\": \"408239535924329\",\"pause_at\": null,\"stream_id\": null,\"section_type\": 1,\"sizes\": null,\"most_recent\": false,\"ranking_model\": null,\"query_context\": []
+                    }
+                    ",storiesContainer: {
+                    __m: "__elem_a588f507_ps_0_0_3"
+                },
+                streamConfig: {
+                    bufferPixels: 2000,
+                    firstPagerScrollBuffer: 100,
+                    minStories: 9999,
+                    maxStories: 9999,
+                    maxFooterStories: 10,
+                    pollIntervalMS: 60000,
+                    newStoryIdleTime: 60000,
+                    substream_config: {
+                        substream_story_count: 6,
+                        top_news_phases: [0, 62],
+                        default_phases: [0],
+                        top_news_sizes: [1, 1],
+                        scroll_load_sizes: [5]
+                    }
+                }
+            }
+        ],
+        []]]
+    }, allResources: ["smMCF", "Vx1iU", "q5KTO", "Rp3Bl", "6zoRa", "/yAfC", "wT9ip", "9gO6U", "jC5nR", "qqatL", "8Pe+I"], displayResources: ["Vx1iU", "/yAfC", "8Pe+I"], id: "more_pager_pagelet_585a3ed16fc602b27008551", phase: 3
+    }
+    )
+    }
+    ), "onPageletArrive more_pager_pagelet_585a3ed16fc602b27008551", {
+        "root": true,
+        "pagelet": "more_pager_pagelet_585a3ed16fc602b27008551"
+    }
+    )();
+    bigPipe.onPageletArrive({
+            id: "last_response",
+            phase: 4,
+            jsmods: {
+                require: [
+                    ["PageLiveInsightsUtils", "triggerLiveInsights", [],
+                        [],
+                        []
+                    ],
+                    ["NavigationMetrics", "setPage", [],
+                        [{
+                            page: "/home.php: topnews",
+                            page_type: "normal",
+                            page_uri: "https: //www.facebook.com/",
+                            serverLID: "6366470091816520534"
+                        }],
+                        []
+                    ],
+                    ["Chromedome", "start", [],
+                        [
+                            []
+                        ],
+                        []
+                    ],
+                    ["SyntaxErrorMonitor", "init", [],
+                        [{
+                            bump_freq_day: 1,
+                            cookie_ttl_sec: 604800,
+                            cdn_config: "secure: 1"
+                        }],
+                        []
+                    ],
+                    ["DimensionTracking"],
+                    ["HighContrastMode", "init", [],
+                        [{
+                            isHCM: false,
+                            spacerImage: "https: //www.facebook.com/rsrc.php/v3/y4/r/-PAXP-deijE.gif"
+                        }],
+                        []
+                    ],
+                    ["ClickRefLogger"],
+                    ["DetectBrokenProxyCache", "run", [],
+                        [100011408476025, "c_user"],
+                        []
+                    ],
+                    ["TimeSlice", "setLogging", [],
+                        [false, 0.01],
+                        []
+                    ],
+                    ["NavigationClickPointHandler"],
+                    ["UserActionHistory"],
+                    ["ScriptPathLogger", "startLogging", [],
+                        [],
+                        []
+                    ],
+                    ["TimeSpentBitArrayLogger", "init", [],
+                        [],
+                        []
+                    ],
+                    ["Cookie", "set", [],
+                        ["p", "-2", 0, "/", false],
+                        []
+                    ]
+                ],
+                define: [
+                    ["MomentsAppGatekeeper", [], {
+                        moments_new_bot_content: true
+                    }, 1864],
+                    ["ControlledRefererIFrameConfig", [], {
+                        additional_markup: ""
+                    }, 1157],
+                    ["MNCommerceShipmentTrackingEventTypes", [], {
+                        UNKNOWN: 0,
+                        ETA: 1,
+                        ACCEPTED: 1001,
+                        IN_TRANSIT: 1002,
+                        OUT_FOR_DELIVERY: 1003,
+                        DELIVERED: 1004,
+                        DELAYED: 1005
+                    }, 763],
+                    ["PaymentModulesGating", [], {
+                        isEnabledForCreditCardCountrySelector: false
+                    }, 1913],
+                    ["PECurrencyConfig", [], {
+                            currency_map_for_render: {
+                                AED: {
+                                    format: "{
+                                    amount
+                                } {
+                                    symbol
+                                }
+                                ",symbol: "
+                                د.إ.
+                                ",offset: 100,screen_name: "
+                                UAE Dirham "
+                            },
+                            AMD: {
+                                format: "{
+                                amount
+                            } {
+                                symbol
+                            }
+                            ",symbol: "
+                            դր.
+                            ",offset: 100,screen_name: null
+                        }, ANG: {
+                            format: "{
+                            symbol
+                        } {
+                            amount
+                        }
+                        ",symbol: "
+                        ANG ",offset: 100,screen_name: null
+                    },
+                    AOA: {
+                        format: "{
+                        symbol
+                    } {
+                        amount
+                    }
+                    ",symbol: "
+                    AOA ",offset: 100,screen_name: null
+                },
+                ARS: {
+                    format: "{
+                    symbol
+                } {
+                    amount
+                }
+                ",symbol: "
+                $ ",offset: 100,screen_name: "
+                Argentine Peso "
+            },
+            AUD: {
+                format: "{
+                symbol
+            } {
+                amount
+            }
+            ",symbol: "
+            $ ",offset: 100,screen_name: "
+            Australian Dollar "
+        }, AWG: {
+            format: "{
+            symbol
+        } {
+            amount
+        }
+        ",symbol: "
+        AWG ",offset: 100,screen_name: null
+    }, BAM: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    BAM ",offset: 100,screen_name: null
+    }, BBD: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    Bds$ ",offset: 100,screen_name: null
+    }, BDT: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "৳
+    ",offset: 100,screen_name: "
+    Bangladeshi Taka "
+    }, BGN: {
+        format: "{
+        amount
+    } {
+        symbol
+    }
+    ",symbol: "
+    лв.
+    ",offset: 100,screen_name: "
+    Bulgarian Lev "
+    }, BHD: {
+        format: "{
+        amount
+    } {
+        symbol
+    }
+    ",symbol: "
+    د.ب.
+    ",offset: 100,screen_name: "
+    Bahraini Dinar "
+    }, BOB: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    Bs.
+    ",offset: 100,screen_name: "
+    Bolivian Boliviano "
+    }, BRL: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    R$ ",offset: 100,screen_name: "
+    Brazilian Real "
+    }, CAD: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    $ ",offset: 100,screen_name: "
+    Canadian Dollar "
+    }, CHF: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    Fr.
+    ",offset: 100,screen_name: "
+    Swiss Franc "
+    }, CLP: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    $ ",offset: 1,screen_name: "
+    Chilean Peso "
+    }, CNY: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "￥
+    ",offset: 100,screen_name: "
+    Chinese Yuan "
+    }, COP: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    $ ",offset: 1,screen_name: "
+    Colombian Peso "
+    }, CRC: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "₡
+    ",offset: 1,screen_name: "
+    Costa Rican Colon "
+    }, CZK: {
+        format: "{
+        amount
+    } {
+        symbol
+    }
+    ",symbol: "
+    Kč ",offset: 100,screen_name: "
+    Czech Koruna "
+    }, DKK: {
+        format: "{
+        amount
+    } {
+        symbol
+    }
+    ",symbol: "
+    kr.
+    ",offset: 100,screen_name: "
+    Danish Krone "
+    }, DZD: {
+        format: "{
+        amount
+    } {
+        symbol
+    }
+    ",symbol: "
+    د.ج.
+    ",offset: 100,screen_name: "
+    Algerian Dinar "
+    }, EGP: {
+        format: "{
+        amount
+    } {
+        symbol
+    }
+    ",symbol: "
+    ج.م.
+    ",offset: 100,screen_name: "
+    Egyptian Pound "
+    }, EUR: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "€
+    ",offset: 100,screen_name: "
+    Euro "
+    }, FBZ: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    C ",offset: 100,screen_name: "
+    credits "
+    }, GBP: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "£
+    ",offset: 100,screen_name: "
+    British Pound Sterling "
+    }, GHS: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    GHS ",offset: 100,screen_name: "
+    Ghanaian Cedi "
+    }, GTQ: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    Q ",offset: 100,screen_name: "
+    Guatemalan Quetzal "
+    }, HKD: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    $ ",offset: 100,screen_name: "
+    Hong Kong Dollar "
+    }, HNL: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    L.
+    ",offset: 100,screen_name: "
+    Honduran Lempira "
+    }, HRK: {
+        format: "{
+        amount
+    } {
+        symbol
+    }
+    ",symbol: "
+    kn ",offset: 100,screen_name: "
+    Croatian Kuna "
+    }, HUF: {
+        format: "{
+        amount
+    } {
+        symbol
+    }
+    ",symbol: "
+    Ft ",offset: 1,screen_name: "
+    Hungarian Forint "
+    }, IDR: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    Rp ",offset: 1,screen_name: "
+    Indonesian Rupiah "
+    }, ILS: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "₪
+    ",offset: 100,screen_name: "
+    Israeli New Shekel "
+    }, INR: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "₹
+    ",offset: 100,screen_name: "
+    Indian Rupee "
+    }, ISK: {
+        format: "{
+        amount
+    } {
+        symbol
+    }
+    ",symbol: "
+    kr.
+    ",offset: 1,screen_name: "
+    Icelandic Krona "
+    }, JOD: {
+        format: "{
+        amount
+    } {
+        symbol
+    }
+    ",symbol: "
+    د.ا.
+    ",offset: 100,screen_name: "
+    Jordanian Dinar "
+    }, JPY: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "¥
+    ",offset: 1,screen_name: "
+    Japanese Yen "
+    }, KES: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    KSh ",offset: 100,screen_name: "
+    Kenyan Shilling "
+    }, KRW: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "₩
+    ",offset: 1,screen_name: "
+    Korean Won "
+    }, KWD: {
+        format: "{
+        amount
+    } {
+        symbol
+    }
+    ",symbol: "
+    د.ك.
+    ",offset: 100,screen_name: null
+    }, KYD: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    CI$ ",offset: 100,screen_name: null
+    }, LKR: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    LKR ",offset: 100,screen_name: null
+    }, LTL: {
+        format: "{
+        amount
+    } {
+        symbol
+    }
+    ",symbol: "
+    Lt ",offset: 100,screen_name: "
+    Lithuanian litas "
+    }, LVL: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    Ls ",offset: 100,screen_name: "
+    Latvian lats "
+    }, MAD: {
+        format: "{
+        amount
+    } {
+        symbol
+    }
+    ",symbol: "
+    د.م.
+    ",offset: 100,screen_name: null
+    }, MOP: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    MOP ",offset: 100,screen_name: "
+    Macau Patacas "
+    }, MUR: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    MUR ",offset: 100,screen_name: null
+    }, MVR: {
+        format: "",
+        symbol: "ރ.",
+        offset: 100,
+        screen_name: null
+    }, MXN: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    $ ",offset: 100,screen_name: "
+    Mexican Peso "
+    }, MYR: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    RM ",offset: 100,screen_name: "
+    Malaysian Ringgit "
+    }, MZN: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    MT ",offset: 100,screen_name: null
+    }, NGN: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "₦
+    ",offset: 100,screen_name: "
+    Nigerian Naira "
+    }, NIO: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    C$ ",offset: 100,screen_name: "
+    Nicaraguan Cordoba "
+    }, NOK: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    kr ",offset: 100,screen_name: "
+    Norwegian Krone "
+    }, NZD: {
+        format: "{
+        amount
+    } {
+        symbol
+    }
+    ",symbol: "
+    $ ",offset: 100,screen_name: "
+    New Zealand Dollar "
+    }, OMR: {
+        format: "{
+        amount
+    } {
+        symbol
+    }
+    ",symbol: "
+    ر.ع.
+    ",offset: 100,screen_name: null
+    }, PAB: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    B / .
+    ",offset: 100,screen_name: null
+    }, PEN: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    S / .
+    ",offset: 100,screen_name: "
+    Peruvian Nuevo Sol "
+    }, PHP: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "₱
+    ",offset: 100,screen_name: "
+    Philippine Peso "
+    }, PKR: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    Rs ",offset: 100,screen_name: "
+    Pakistani Rupee "
+    }, PLN: {
+        format: "{
+        amount
+    } {
+        symbol
+    }
+    ",symbol: "
+    zł ",offset: 100,screen_name: "
+    Polish Zloty "
+    }, PYG: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "₲
+    ",offset: 1,screen_name: "
+    Paraguayan Guarani "
+    }, QAR: {
+        format: "{
+        amount
+    } {
+        symbol
+    }
+    ",symbol: "
+    ر.ق.
+    ",offset: 100,screen_name: "
+    Qatari Rials "
+    }, RON: {
+        format: "{
+        amount
+    } {
+        symbol
+    }
+    ",symbol: "
+    lei ",offset: 100,screen_name: "
+    Romanian Leu "
+    }, RSD: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    RSD ",offset: 100,screen_name: "
+    Serbian Dinar "
+    }, RUB: {
+        format: "{
+        amount
+    } {
+        symbol
+    }
+    ",symbol: "
+    p.
+    ",offset: 100,screen_name: "
+    Russian Rouble "
+    }, SAR: {
+        format: "{
+        amount
+    } {
+        symbol
+    }
+    ",symbol: "
+    ر.س.
+    ",offset: 100,screen_name: "
+    Saudi Arabian Riyal "
+    }, SEK: {
+        format: "{
+        amount
+    } {
+        symbol
+    }
+    ",symbol: "
+    kr ",offset: 100,screen_name: "
+    Swedish Krona "
+    }, SGD: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    $ ",offset: 100,screen_name: "
+    Singapore Dollar "
+    }, SKK: {
+        format: "{
+        amount
+    } {
+        symbol
+    }
+    ",symbol: "
+    Sk ",offset: 100,screen_name: "
+    Slovak koruna "
+    }, SRD: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    SRD ",offset: 100,screen_name: null
+    }, THB: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "฿
+    ",offset: 100,screen_name: "
+    Thai Baht "
+    }, TRY: {
+        format: "{
+        amount
+    } {
+        symbol
+    }
+    ",symbol: "
+    TL ",offset: 100,screen_name: "
+    Turkish Lira "
+    }, TWD: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    NT$ ",offset: 1,screen_name: "
+    Taiwan Dollar "
+    }, TZS: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    TSh ",offset: 1,screen_name: "
+    Tanzanian Shilling "
+    }, UAH: {
+        format: "{
+        amount
+    } {
+        symbol
+    }
+    ",symbol: "
+    грн.
+    ",offset: 100,screen_name: "
+    Ukrainian Hryvnia "
+    }, USD: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    $ ",offset: 100,screen_name: "
+    US Dollar "
+    }, UYU: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    $U ",offset: 100,screen_name: "
+    Uruguay Peso "
+    }, VEF: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    Bs ",offset: 100,screen_name: "
+    Venezuelan Bolivar "
+    }, VND: {
+        format: "{
+        amount
+    } {
+        symbol
+    }
+    ",symbol: "₫
+    ",offset: 1,screen_name: "
+    Vietnamese Dong "
+    }, XAF: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    FCFA ",offset: 1,screen_name: null
+    }, XOF: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    FCFA ",offset: 1,screen_name: null
+    }, ZAR: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    R ",offset: 100,screen_name: "
+    South African Rand "
+    }
+    }, currency_map_for_cc: {
+        AED: {
+            format: "{
+            amount
+        } {
+            symbol
+        }
+        ",symbol: "
+        د.إ.
+        ",offset: 100,screen_name: "
+        UAE Dirham "
+    }, ARS: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    $ ",offset: 100,screen_name: "
+    Argentine Peso "
+    }, AUD: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    $ ",offset: 100,screen_name: "
+    Australian Dollar "
+    }, BDT: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "৳
+    ",offset: 100,screen_name: "
+    Bangladeshi Taka "
+    }, BOB: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    Bs.
+    ",offset: 100,screen_name: "
+    Bolivian Boliviano "
+    }, BRL: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    R$ ",offset: 100,screen_name: "
+    Brazilian Real "
+    }, CAD: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    $ ",offset: 100,screen_name: "
+    Canadian Dollar "
+    }, CHF: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    Fr.
+    ",offset: 100,screen_name: "
+    Swiss Franc "
+    }, CLP: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    $ ",offset: 1,screen_name: "
+    Chilean Peso "
+    }, CNY: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "￥
+    ",offset: 100,screen_name: "
+    Chinese Yuan "
+    }, COP: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    $ ",offset: 1,screen_name: "
+    Colombian Peso "
+    }, CRC: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "₡
+    ",offset: 1,screen_name: "
+    Costa Rican Colon "
+    }, CZK: {
+        format: "{
+        amount
+    } {
+        symbol
+    }
+    ",symbol: "
+    Kč ",offset: 100,screen_name: "
+    Czech Koruna "
+    }, DKK: {
+        format: "{
+        amount
+    } {
+        symbol
+    }
+    ",symbol: "
+    kr.
+    ",offset: 100,screen_name: "
+    Danish Krone "
+    }, DZD: {
+        format: "{
+        amount
+    } {
+        symbol
+    }
+    ",symbol: "
+    د.ج.
+    ",offset: 100,screen_name: "
+    Algerian Dinar "
+    }, EGP: {
+        format: "{
+        amount
+    } {
+        symbol
+    }
+    ",symbol: "
+    ج.م.
+    ",offset: 100,screen_name: "
+    Egyptian Pound "
+    }, EUR: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "€
+    ",offset: 100,screen_name: "
+    Euro "
+    }, GBP: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "£
+    ",offset: 100,screen_name: "
+    British Pound Sterling "
+    }, GTQ: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    Q ",offset: 100,screen_name: "
+    Guatemalan Quetzal "
+    }, HKD: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    $ ",offset: 100,screen_name: "
+    Hong Kong Dollar "
+    }, HNL: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    L.
+    ",offset: 100,screen_name: "
+    Honduran Lempira "
+    }, HUF: {
+        format: "{
+        amount
+    } {
+        symbol
+    }
+    ",symbol: "
+    Ft ",offset: 1,screen_name: "
+    Hungarian Forint "
+    }, IDR: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    Rp ",offset: 1,screen_name: "
+    Indonesian Rupiah "
+    }, ILS: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "₪
+    ",offset: 100,screen_name: "
+    Israeli New Shekel "
+    }, INR: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "₹
+    ",offset: 100,screen_name: "
+    Indian Rupee "
+    }, ISK: {
+        format: "{
+        amount
+    } {
+        symbol
+    }
+    ",symbol: "
+    kr.
+    ",offset: 1,screen_name: "
+    Icelandic Krona "
+    }, JPY: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "¥
+    ",offset: 1,screen_name: "
+    Japanese Yen "
+    }, KES: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    KSh ",offset: 100,screen_name: "
+    Kenyan Shilling "
+    }, KRW: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "₩
+    ",offset: 1,screen_name: "
+    Korean Won "
+    }, MOP: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    MOP ",offset: 100,screen_name: "
+    Macau Patacas "
+    }, MXN: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    $ ",offset: 100,screen_name: "
+    Mexican Peso "
+    }, MYR: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    RM ",offset: 100,screen_name: "
+    Malaysian Ringgit "
+    }, NGN: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "₦
+    ",offset: 100,screen_name: "
+    Nigerian Naira "
+    }, NIO: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    C$ ",offset: 100,screen_name: "
+    Nicaraguan Cordoba "
+    }, NOK: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    kr ",offset: 100,screen_name: "
+    Norwegian Krone "
+    }, NZD: {
+        format: "{
+        amount
+    } {
+        symbol
+    }
+    ",symbol: "
+    $ ",offset: 100,screen_name: "
+    New Zealand Dollar "
+    }, PEN: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    S / .
+    ",offset: 100,screen_name: "
+    Peruvian Nuevo Sol "
+    }, PHP: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "₱
+    ",offset: 100,screen_name: "
+    Philippine Peso "
+    }, PKR: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    Rs ",offset: 100,screen_name: "
+    Pakistani Rupee "
+    }, PLN: {
+        format: "{
+        amount
+    } {
+        symbol
+    }
+    ",symbol: "
+    zł ",offset: 100,screen_name: "
+    Polish Zloty "
+    }, PYG: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "₲
+    ",offset: 1,screen_name: "
+    Paraguayan Guarani "
+    }, QAR: {
+        format: "{
+        amount
+    } {
+        symbol
+    }
+    ",symbol: "
+    ر.ق.
+    ",offset: 100,screen_name: "
+    Qatari Rials "
+    }, RON: {
+        format: "{
+        amount
+    } {
+        symbol
+    }
+    ",symbol: "
+    lei ",offset: 100,screen_name: "
+    Romanian Leu "
+    }, RUB: {
+        format: "{
+        amount
+    } {
+        symbol
+    }
+    ",symbol: "
+    p.
+    ",offset: 100,screen_name: "
+    Russian Rouble "
+    }, SAR: {
+        format: "{
+        amount
+    } {
+        symbol
+    }
+    ",symbol: "
+    ر.س.
+    ",offset: 100,screen_name: "
+    Saudi Arabian Riyal "
+    }, SEK: {
+        format: "{
+        amount
+    } {
+        symbol
+    }
+    ",symbol: "
+    kr ",offset: 100,screen_name: "
+    Swedish Krona "
+    }, SGD: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    $ ",offset: 100,screen_name: "
+    Singapore Dollar "
+    }, THB: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "฿
+    ",offset: 100,screen_name: "
+    Thai Baht "
+    }, TRY: {
+        format: "{
+        amount
+    } {
+        symbol
+    }
+    ",symbol: "
+    TL ",offset: 100,screen_name: "
+    Turkish Lira "
+    }, TWD: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    NT$ ",offset: 1,screen_name: "
+    Taiwan Dollar "
+    }, USD: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    $ ",offset: 100,screen_name: "
+    US Dollar "
+    }, UYU: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    $U ",offset: 100,screen_name: "
+    Uruguay Peso "
+    }, VEF: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    Bs ",offset: 100,screen_name: "
+    Venezuelan Bolivar "
+    }, VND: {
+        format: "{
+        amount
+    } {
+        symbol
+    }
+    ",symbol: "₫
+    ",offset: 1,screen_name: "
+    Vietnamese Dong "
+    }, ZAR: {
+        format: "{
+        symbol
+    } {
+        amount
+    }
+    ",symbol: "
+    R ",offset: 100,screen_name: "
+    South African Rand "
+    }
+    }
+    }, 745], ["MessengerConfig", [], {
+        MaxSeenHeadCount: 8,
+        MessageLoadCount: 20,
+        MoneyPennyFBID: "881263441913087",
+        "sound.notif_mp3_url": "https: //www.facebook.com/rsrc.php/yq/r/OC4-KYxmKsR.mp3",
+        "sound.notif_ogg_url": "https: //www.facebook.com/rsrc.php/yy/r/XFhtdTsftOC.ogg",
+        ShouldAlwaysEnableCTAInsteadOfComposer: true,
+        BootstrapTypeaheadFromBuddylist: false,
+        ChatScrollInterval: false,
+        ComposerShowAudioClip: true,
+        ShowContextBanner: true,
+        ContentSearchEnabled: true,
+        BadgesDisabled: false,
+        PeopleTabEnabled: true,
+        SentTimestampEnabled: true,
+        SegoeUIDisabled: false,
+        SFFontEnabled: false,
+        FlexBubblesEnabled: false,
+        UnreadFilter: false,
+        CollapsibleThreadOptions: true,
+        SendButtonEnabled: true,
+        ShowReloadPrompt: true,
+        EnabledNullStateCTA: true,
+        EnableStructuredMenu: true,
+        MessengerIconQuickReply: true,
+        MessengerLocationQuickReply: true,
+        ShowMessageLinks: false,
+        MessengerStickerQuickReply: true,
+        EnablePaypalPaymentOnboarding: true,
+        EnableStripePaymentOnboarding: true,
+        ShowModularInbox: false,
+        ShowGroupPollingInterface: false,
+        AllowArchived: false
+    }, 661], ["MessengerURIConstants", [], {
+        ARCHIVED_PATH: "/archived",
+        COMPOSE_SUBPATH: "/new",
+        GROUPS_PATH: "/groups",
+        PEOPLE_PATH: "/people",
+        SUPPORT_PATH: "/support",
+        FILTERED_REQUESTS_PATH: "/filtered",
+        MESSAGE_REQUESTS_PATH: "/requests",
+        THREAD_PREFIX: "/t/",
+        GROUP_PREFIX: "group-"
+    }, 1912], ["MessengerDotComSaveModule", [], {
+        enabled_inline_save: false,
+        enabled_attachment_save: true,
+        enabled_video_save: true,
+        eligible_for_nux: false
+    }, 1523], ["MercuryFoldersConfig", [], {
+        hide_message_filtered: false,
+        hide_message_requests: false
+    }, 1632], ["ImmediateActiveSecondsConfig", [], {
+        sampling_rate: 2003,
+        ias_bucket: 1268
+    }, 423], ["SphericalVideoExperiments", [], {
+        enableGuidedTour: true,
+        autoplayGuide: true,
+        showGuideNux: true,
+        useSpatialAudio: true,
+        showSpatialScrubber: false,
+        thumbnailFromScreenshot: false,
+        canvasLimit: 2
+    }, 1425], ["RTCConfig", [], {
+        InteractiveCallLogGK: true,
+        VideoInteropGK: true,
+        ScreenSharingGK: false,
+        ReceiveScreenGK: false,
+        CollaborationScreenSharingGK: false,
+        CollaborationVideoGroupCallGK: false,
+        CollabVCEndpointsVideoCallGK: false,
+        CollabWhitelistedBrowserGK: false,
+        CollabDisableBrowserTurnDiscoveryGK: false,
+        PassMessagesBetweenWindowsGK: true,
+        VideoCallBlockingGK: true,
+        BrowserNotificationGK: true,
+        RtcConferencingGK: true,
+        RtcConferencingVideoGK: true,
+        RtcAddNewParticipantsGK: false,
+        RTCConferencingP2PCanReceiveGK: false,
+        ringtone_mp3_url: "https: //www.facebook.com/rsrc.php/yh/r/taJw7SpZVz2.mp3",
+        ringtone_ogg_url: "https: //www.facebook.com/rsrc.php/yO/r/kTasEyE42gs.ogg",
+        ringback_mp3_url: "https: //www.facebook.com/rsrc.php/yA/r/QaLYA8XtNfH.mp3",
+        ringback_ogg_url: "https: //www.facebook.com/rsrc.php/y9/r/VUaboMDNioG.ogg",
+        CollaborationCallQuality: {
+            screen: {
+                height: 720,
+                width: 1280,
+                frameRate: 30
+            },
+            screen_v2: {
+                height: {
+                    exact: 720
+                },
+                width: {
+                    exact: 1280
+                },
+                frameRate: {
+                    max: 15,
+                    ideal: 5
+                }
+            },
+            videoToRoom: {
+                height: 720,
+                width: 1280,
+                frameRate: 30
+            }
+        },
+        DeclareAudioNackCapabilityInSDPOffer: 1,
+        SendNewVCGK: true,
+        ReceiveNewVCGK: true
+    }, 760], ["VideoPlayerReactConfig", [], {
+        defaultQuality: ""
+    }, 1919], ["P2PGKValues", [], {
+        PaymentsEnabled: true,
+        P2PEnabled: false,
+        P2PDisabledReason: null,
+        P2PEligible: false,
+        P2PVisible: false,
+        P2PWWWMemoField: true,
+        P2PRequestMoneyEnabled: true,
+        P2PUserAddedCredentialBefore: false,
+        P2PWWWClientExceptionLogging: false,
+        P2PWWWMemoPhotoEnabled: false,
+        P2PWWWMemoPhotoEligible: true,
+        P2PGroupCommerceRequestEnabled: true
+    }, 762], ["VideoPlayerSnowliftReactExperiments", [], {
+        shouldPrefetchMpd: false,
+        videoCanStoreVolumeLevel: false,
+        shouldRenderVideoOnClick: false
+    }, 1959], ["CreditCardConfig", [], {
+        supported_countries: [{
+            iso_alpha2: "GB",
+            iso_country: "United Kingdom"
+        }, {
+            iso_alpha2: "AU",
+            iso_country: "Australia"
+        }, {
+            iso_alpha2: "AF",
+            iso_country: "Afghanistan"
+        }, {
+            iso_alpha2: "AX",
+            iso_country: "Åland Islands"
+        }, {
+            iso_alpha2: "AL",
+            iso_country: "Albania"
+        }, {
+            iso_alpha2: "DZ",
+            iso_country: "Algeria"
+        }, {
+            iso_alpha2: "AS",
+            iso_country: "American Samoa"
+        }, {
+            iso_alpha2: "AD",
+            iso_country: "Andorra"
+        }, {
+            iso_alpha2: "AO",
+            iso_country: "Angola"
+        }, {
+            iso_alpha2: "AI",
+            iso_country: "Anguilla"
+        }, {
+            iso_alpha2: "AQ",
+            iso_country: "Antarctica"
+        }, {
+            iso_alpha2: "AG",
+            iso_country: "Antigua"
+        }, {
+            iso_alpha2: "AR",
+            iso_country: "Argentina"
+        }, {
+            iso_alpha2: "AM",
+            iso_country: "Armenia"
+        }, {
+            iso_alpha2: "AW",
+            iso_country: "Aruba"
+        }, {
+            iso_alpha2: "AT",
+            iso_country: "Austria"
+        }, {
+            iso_alpha2: "AZ",
+            iso_country: "Azerbaijan"
+        }, {
+            iso_alpha2: "BH",
+            iso_country: "Bahrain"
+        }, {
+            iso_alpha2: "BD",
+            iso_country: "Bangladesh"
+        }, {
+            iso_alpha2: "BB",
+            iso_country: "Barbados"
+        }, {
+            iso_alpha2: "BY",
+            iso_country: "Belarus"
+        }, {
+            iso_alpha2: "BE",
+            iso_country: "Belgium"
+        }, {
+            iso_alpha2: "BZ",
+            iso_country: "Belize"
+        }, {
+            iso_alpha2: "BJ",
+            iso_country: "Benin"
+        }, {
+            iso_alpha2: "BM",
+            iso_country: "Bermuda"
+        }, {
+            iso_alpha2: "BT",
+            iso_country: "Bhutan"
+        }, {
+            iso_alpha2: "BO",
+            iso_country: "Bolivia"
+        }, {
+            iso_alpha2: "BQ",
+            iso_country: "Bonaire, Sint Eustatius and Saba"
+        }, {
+            iso_alpha2: "BA",
+            iso_country: "Bosnia and Herzegovina"
+        }, {
+            iso_alpha2: "BW",
+            iso_country: "Botswana"
+        }, {
+            iso_alpha2: "BV",
+            iso_country: "Bouvet Island"
+        }, {
+            iso_alpha2: "BR",
+            iso_country: "Brazil"
+        }, {
+            iso_alpha2: "IO",
+            iso_country: "British Indian Ocean Territory"
+        }, {
+            iso_alpha2: "VG",
+            iso_country: "British Virgin Islands"
+        }, {
+            iso_alpha2: "BN",
+            iso_country: "Brunei"
+        }, {
+            iso_alpha2: "BG",
+            iso_country: "Bulgaria"
+        }, {
+            iso_alpha2: "BF",
+            iso_country: "Burkina Faso"
+        }, {
+            iso_alpha2: "BI",
+            iso_country: "Burundi"
+        }, {
+            iso_alpha2: "KH",
+            iso_country: "Cambodia"
+        }, {
+            iso_alpha2: "CM",
+            iso_country: "Cameroon"
+        }, {
+            iso_alpha2: "CA",
+            iso_country: "Canada"
+        }, {
+            iso_alpha2: "CV",
+            iso_country: "Cape Verde"
+        }, {
+            iso_alpha2: "KY",
+            iso_country: "Cayman Islands"
+        }, {
+            iso_alpha2: "CF",
+            iso_country: "Central African Republic"
+        }, {
+            iso_alpha2: "TD",
+            iso_country: "Chad"
+        }, {
+            iso_alpha2: "CL",
+            iso_country: "Chile"
+        }, {
+            iso_alpha2: "CN",
+            iso_country: "China"
+        }, {
+            iso_alpha2: "CX",
+            iso_country: "Christmas Island"
+        }, {
+            iso_alpha2: "CC",
+            iso_country: "Cocos (Keeling) Islands"
+        }, {
+            iso_alpha2: "CO",
+            iso_country: "Colombia"
+        }, {
+            iso_alpha2: "KM",
+            iso_country: "Comoros"
+        }, {
+            iso_alpha2: "CK",
+            iso_country: "Cook Islands"
+        }, {
+            iso_alpha2: "CR",
+            iso_country: "Costa Rica"
+        }, {
+            iso_alpha2: "CI",
+            iso_country: "Côte d'Ivoire"
+        }, {
+            iso_alpha2: "HR",
+            iso_country: "Croatia"
+        }, {
+            iso_alpha2: "CW",
+            iso_country: "Curaçao"
+        }, {
+            iso_alpha2: "CY",
+            iso_country: "Cyprus"
+        }, {
+            iso_alpha2: "CZ",
+            iso_country: "Czech Republic"
+        }, {
+            iso_alpha2: "CD",
+            iso_country: "Democratic Republic of the Congo"
+        }, {
+            iso_alpha2: "DK",
+            iso_country: "Denmark"
+        }, {
+            iso_alpha2: "DJ",
+            iso_country: "Djibouti"
+        }, {
+            iso_alpha2: "DM",
+            iso_country: "Dominica"
+        }, {
+            iso_alpha2: "DO",
+            iso_country: "Dominican Republic"
+        }, {
+            iso_alpha2: "EC",
+            iso_country: "Ecuador"
+        }, {
+            iso_alpha2: "EG",
+            iso_country: "Egypt"
+        }, {
+            iso_alpha2: "SV",
+            iso_country: "El Salvador"
+        }, {
+            iso_alpha2: "GQ",
+            iso_country: "Equatorial Guinea"
+        }, {
+            iso_alpha2: "ER",
+            iso_country: "Eritrea"
+        }, {
+            iso_alpha2: "EE",
+            iso_country: "Estonia"
+        }, {
+            iso_alpha2: "ET",
+            iso_country: "Ethiopia"
+        }, {
+            iso_alpha2: "FK",
+            iso_country: "Falkland Islands"
+        }, {
+            iso_alpha2: "FO",
+            iso_country: "Faroe Islands"
+        }, {
+            iso_alpha2: "FM",
+            iso_country: "Federated States of Micronesia"
+        }, {
+            iso_alpha2: "FJ",
+            iso_country: "Fiji"
+        }, {
+            iso_alpha2: "FI",
+            iso_country: "Finland"
+        }, {
+            iso_alpha2: "FR",
+            iso_country: "France"
+        }, {
+            iso_alpha2: "GF",
+            iso_country: "French Guiana"
+        }, {
+            iso_alpha2: "PF",
+            iso_country: "French Polynesia"
+        }, {
+            iso_alpha2: "TF",
+            iso_country: "French Southern Territories"
+        }, {
+            iso_alpha2: "GA",
+            iso_country: "Gabon"
+        }, {
+            iso_alpha2: "GE",
+            iso_country: "Georgia"
+        }, {
+            iso_alpha2: "DE",
+            iso_country: "Germany"
+        }, {
+            iso_alpha2: "GH",
+            iso_country: "Ghana"
+        }, {
+            iso_alpha2: "GI",
+            iso_country: "Gibraltar"
+        }, {
+            iso_alpha2: "GR",
+            iso_country: "Greece"
+        }, {
+            iso_alpha2: "GL",
+            iso_country: "Greenland"
+        }, {
+            iso_alpha2: "GD",
+            iso_country: "Grenada"
+        }, {
+            iso_alpha2: "GP",
+            iso_country: "Guadeloupe"
+        }, {
+            iso_alpha2: "GU",
+            iso_country: "Guam"
+        }, {
+            iso_alpha2: "GT",
+            iso_country: "Guatemala"
+        }, {
+            iso_alpha2: "GG",
+            iso_country: "Guernsey"
+        }, {
+            iso_alpha2: "GN",
+            iso_country: "Guinea"
+        }, {
+            iso_alpha2: "GW",
+            iso_country: "Guinea-Bissau"
+        }, {
+            iso_alpha2: "GY",
+            iso_country: "Guyana"
+        }, {
+            iso_alpha2: "HT",
+            iso_country: "Haiti"
+        }, {
+            iso_alpha2: "HM",
+            iso_country: "Heard Island and McDonald Islands"
+        }, {
+            iso_alpha2: "HN",
+            iso_country: "Honduras"
+        }, {
+            iso_alpha2: "HK",
+            iso_country: "Hong Kong"
+        }, {
+            iso_alpha2: "HU",
+            iso_country: "Hungary"
+        }, {
+            iso_alpha2: "IS",
+            iso_country: "Iceland"
+        }, {
+            iso_alpha2: "IN",
+            iso_country: "India"
+        }, {
+            iso_alpha2: "ID",
+            iso_country: "Indonesia"
+        }, {
+            iso_alpha2: "IQ",
+            iso_country: "Iraq"
+        }, {
+            iso_alpha2: "IE",
+            iso_country: "Ireland"
+        }, {
+            iso_alpha2: "IM",
+            iso_country: "Isle of Man"
+        }, {
+            iso_alpha2: "IL",
+            iso_country: "Israel"
+        }, {
+            iso_alpha2: "IT",
+            iso_country: "Italy"
+        }, {
+            iso_alpha2: "JM",
+            iso_country: "Jamaica"
+        }, {
+            iso_alpha2: "JP",
+            iso_country: "Japan"
+        }, {
+            iso_alpha2: "JE",
+            iso_country: "Jersey"
+        }, {
+            iso_alpha2: "JO",
+            iso_country: "Jordan"
+        }, {
+            iso_alpha2: "KZ",
+            iso_country: "Kazakhstan"
+        }, {
+            iso_alpha2: "KE",
+            iso_country: "Kenya"
+        }, {
+            iso_alpha2: "KI",
+            iso_country: "Kiribati"
+        }, {
+            iso_alpha2: "KW",
+            iso_country: "Kuwait"
+        }, {
+            iso_alpha2: "KG",
+            iso_country: "Kyrgyzstan"
+        }, {
+            iso_alpha2: "LA",
+            iso_country: "Laos"
+        }, {
+            iso_alpha2: "LV",
+            iso_country: "Latvia"
+        }, {
+            iso_alpha2: "LB",
+            iso_country: "Lebanon"
+        }, {
+            iso_alpha2: "LS",
+            iso_country: "Lesotho"
+        }, {
+            iso_alpha2: "LR",
+            iso_country: "Liberia"
+        }, {
+            iso_alpha2: "LY",
+            iso_country: "Libya"
+        }, {
+            iso_alpha2: "LI",
+            iso_country: "Liechtenstein"
+        }, {
+            iso_alpha2: "LT",
+            iso_country: "Lithuania"
+        }, {
+            iso_alpha2: "LU",
+            iso_country: "Luxembourg"
+        }, {
+            iso_alpha2: "MO",
+            iso_country: "Macau"
+        }, {
+            iso_alpha2: "MK",
+            iso_country: "Macedonia"
+        }, {
+            iso_alpha2: "MG",
+            iso_country: "Madagascar"
+        }, {
+            iso_alpha2: "MW",
+            iso_country: "Malawi"
+        }, {
+            iso_alpha2: "MY",
+            iso_country: "Malaysia"
+        }, {
+            iso_alpha2: "MV",
+            iso_country: "Maldives"
+        }, {
+            iso_alpha2: "ML",
+            iso_country: "Mali"
+        }, {
+            iso_alpha2: "MT",
+            iso_country: "Malta"
+        }, {
+            iso_alpha2: "MH",
+            iso_country: "Marshall Islands"
+        }, {
+            iso_alpha2: "MQ",
+            iso_country: "Martinique"
+        }, {
+            iso_alpha2: "MR",
+            iso_country: "Mauritania"
+        }, {
+            iso_alpha2: "MU",
+            iso_country: "Mauritius"
+        }, {
+            iso_alpha2: "YT",
+            iso_country: "Mayotte"
+        }, {
+            iso_alpha2: "MX",
+            iso_country: "Mexico"
+        }, {
+            iso_alpha2: "MD",
+            iso_country: "Moldova"
+        }, {
+            iso_alpha2: "MC",
+            iso_country: "Monaco"
+        }, {
+            iso_alpha2: "MN",
+            iso_country: "Mongolia"
+        }, {
+            iso_alpha2: "ME",
+            iso_country: "Montenegro"
+        }, {
+            iso_alpha2: "MS",
+            iso_country: "Montserrat"
+        }, {
+            iso_alpha2: "MA",
+            iso_country: "Morocco"
+        }, {
+            iso_alpha2: "MZ",
+            iso_country: "Mozambique"
+        }, {
+            iso_alpha2: "MM",
+            iso_country: "Myanmar (Burma)"
+        }, {
+            iso_alpha2: "NA",
+            iso_country: "Namibia"
+        }, {
+            iso_alpha2: "NR",
+            iso_country: "Nauru"
+        }, {
+            iso_alpha2: "NP",
+            iso_country: "Nepal"
+        }, {
+            iso_alpha2: "NL",
+            iso_country: "Netherlands"
+        }, {
+            iso_alpha2: "AN",
+            iso_country: "Netherlands Antilles"
+        }, {
+            iso_alpha2: "NC",
+            iso_country: "New Caledonia"
+        }, {
+            iso_alpha2: "NZ",
+            iso_country: "New Zealand"
+        }, {
+            iso_alpha2: "NI",
+            iso_country: "Nicaragua"
+        }, {
+            iso_alpha2: "NE",
+            iso_country: "Niger"
+        }, {
+            iso_alpha2: "NG",
+            iso_country: "Nigeria"
+        }, {
+            iso_alpha2: "NU",
+            iso_country: "Niue"
+        }, {
+            iso_alpha2: "NF",
+            iso_country: "Norfolk Island"
+        }, {
+            iso_alpha2: "KP",
+            iso_country: "North Korea"
+        }, {
+            iso_alpha2: "MP",
+            iso_country: "Northern Mariana Islands"
+        }, {
+            iso_alpha2: "NO",
+            iso_country: "Norway"
+        }, {
+            iso_alpha2: "OM",
+            iso_country: "Oman"
+        }, {
+            iso_alpha2: "PK",
+            iso_country: "Pakistan"
+        }, {
+            iso_alpha2: "PW",
+            iso_country: "Palau"
+        }, {
+            iso_alpha2: "PS",
+            iso_country: "Palestine"
+        }, {
+            iso_alpha2: "PA",
+            iso_country: "Panama"
+        }, {
+            iso_alpha2: "PG",
+            iso_country: "Papua New Guinea"
+        }, {
+            iso_alpha2: "PY",
+            iso_country: "Paraguay"
+        }, {
+            iso_alpha2: "PE",
+            iso_country: "Peru"
+        }, {
+            iso_alpha2: "PH",
+            iso_country: "Philippines"
+        }, {
+            iso_alpha2: "PN",
+            iso_country: "Pitcairn"
+        }, {
+            iso_alpha2: "PL",
+            iso_country: "Poland"
+        }, {
+            iso_alpha2: "PT",
+            iso_country: "Portugal"
+        }, {
+            iso_alpha2: "PR",
+            iso_country: "Puerto Rico"
+        }, {
+            iso_alpha2: "QA",
+            iso_country: "Qatar"
+        }, {
+            iso_alpha2: "CG",
+            iso_country: "Republic of the Congo"
+        }, {
+            iso_alpha2: "RE",
+            iso_country: "Réunion"
+        }, {
+            iso_alpha2: "RO",
+            iso_country: "Romania"
+        }, {
+            iso_alpha2: "RU",
+            iso_country: "Russia"
+        }, {
+            iso_alpha2: "RW",
+            iso_country: "Rwanda"
+        }, {
+            iso_alpha2: "BL",
+            iso_country: "Saint Barthélemy"
+        }, {
+            iso_alpha2: "SH",
+            iso_country: "Saint Helena"
+        }, {
+            iso_alpha2: "KN",
+            iso_country: "Saint Kitts and Nevis"
+        }, {
+            iso_alpha2: "MF",
+            iso_country: "Saint Martin"
+        }, {
+            iso_alpha2: "PM",
+            iso_country: "Saint Pierre and Miquelon"
+        }, {
+            iso_alpha2: "VC",
+            iso_country: "Saint Vincent and the Grenadines"
+        }, {
+            iso_alpha2: "WS",
+            iso_country: "Samoa"
+        }, {
+            iso_alpha2: "SM",
+            iso_country: "San Marino"
+        }, {
+            iso_alpha2: "ST",
+            iso_country: "São Tomé and Príncipe"
+        }, {
+            iso_alpha2: "SA",
+            iso_country: "Saudi Arabia"
+        }, {
+            iso_alpha2: "SN",
+            iso_country: "Senegal"
+        }, {
+            iso_alpha2: "RS",
+            iso_country: "Serbia"
+        }, {
+            iso_alpha2: "SC",
+            iso_country: "Seychelles"
+        }, {
+            iso_alpha2: "SL",
+            iso_country: "Sierra Leone"
+        }, {
+            iso_alpha2: "SG",
+            iso_country: "Singapore"
+        }, {
+            iso_alpha2: "SX",
+            iso_country: "Sint Maarten"
+        }, {
+            iso_alpha2: "SK",
+            iso_country: "Slovakia"
+        }, {
+            iso_alpha2: "SI",
+            iso_country: "Slovenia"
+        }, {
+            iso_alpha2: "SB",
+            iso_country: "Solomon Islands"
+        }, {
+            iso_alpha2: "SO",
+            iso_country: "Somalia"
+        }, {
+            iso_alpha2: "ZA",
+            iso_country: "South Africa"
+        }, {
+            iso_alpha2: "GS",
+            iso_country: "South Georgia and the South Sandwich Islands"
+        }, {
+            iso_alpha2: "KR",
+            iso_country: "South Korea"
+        }, {
+            iso_alpha2: "SS",
+            iso_country: "South Sudan"
+        }, {
+            iso_alpha2: "ES",
+            iso_country: "Spain"
+        }, {
+            iso_alpha2: "LK",
+            iso_country: "Sri Lanka"
+        }, {
+            iso_alpha2: "LC",
+            iso_country: "St. Lucia"
+        }, {
+            iso_alpha2: "SR",
+            iso_country: "Suriname"
+        }, {
+            iso_alpha2: "SJ",
+            iso_country: "Svalbard and Jan Mayen"
+        }, {
+            iso_alpha2: "SZ",
+            iso_country: "Swaziland"
+        }, {
+            iso_alpha2: "SE",
+            iso_country: "Sweden"
+        }, {
+            iso_alpha2: "CH",
+            iso_country: "Switzerland"
+        }, {
+            iso_alpha2: "TW",
+            iso_country: "Taiwan"
+        }, {
+            iso_alpha2: "TJ",
+            iso_country: "Tajikistan"
+        }, {
+            iso_alpha2: "TZ",
+            iso_country: "Tanzania"
+        }, {
+            iso_alpha2: "TH",
+            iso_country: "Thailand"
+        }, {
+            iso_alpha2: "BS",
+            iso_country: "The Bahamas"
+        }, {
+            iso_alpha2: "GM",
+            iso_country: "The Gambia"
+        }, {
+            iso_alpha2: "TL",
+            iso_country: "Timor-Leste"
+        }, {
+            iso_alpha2: "TG",
+            iso_country: "Togo"
+        }, {
+            iso_alpha2: "TK",
+            iso_country: "Tokelau"
+        }, {
+            iso_alpha2: "TO",
+            iso_country: "Tonga"
+        }, {
+            iso_alpha2: "TT",
+            iso_country: "Trinidad and Tobago"
+        }, {
+            iso_alpha2: "TN",
+            iso_country: "Tunisia"
+        }, {
+            iso_alpha2: "TR",
+            iso_country: "Turkey"
+        }, {
+            iso_alpha2: "TM",
+            iso_country: "Turkmenistan"
+        }, {
+            iso_alpha2: "TC",
+            iso_country: "Turks and Caicos Islands"
+        }, {
+            iso_alpha2: "TV",
+            iso_country: "Tuvalu"
+        }, {
+            iso_alpha2: "UG",
+            iso_country: "Uganda"
+        }, {
+            iso_alpha2: "UA",
+            iso_country: "Ukraine"
+        }, {
+            iso_alpha2: "AE",
+            iso_country: "United Arab Emirates"
+        }, {
+            iso_alpha2: "US",
+            iso_country: "United States"
+        }, {
+            iso_alpha2: "UM",
+            iso_country: "United States Minor Outlying Islands"
+        }, {
+            iso_alpha2: "UY",
+            iso_country: "Uruguay"
+        }, {
+            iso_alpha2: "VI",
+            iso_country: "US Virgin Islands"
+        }, {
+            iso_alpha2: "UZ",
+            iso_country: "Uzbekistan"
+        }, {
+            iso_alpha2: "VU",
+            iso_country: "Vanuatu"
+        }, {
+            iso_alpha2: "VA",
+            iso_country: "Vatican City"
+        }, {
+            iso_alpha2: "VE",
+            iso_country: "Venezuela"
+        }, {
+            iso_alpha2: "VN",
+            iso_country: "Vietnam"
+        }, {
+            iso_alpha2: "WF",
+            iso_country: "Wallis and Futuna"
+        }, {
+            iso_alpha2: "EH",
+            iso_country: "Western Sahara"
+        }, {
+            iso_alpha2: "YE",
+            iso_country: "Yemen"
+        }, {
+            iso_alpha2: "ZM",
+            iso_country: "Zambia"
+        }, {
+            iso_alpha2: "ZW",
+            iso_country: "Zimbabwe"
+        }],
+        user_country: "IN",
+        supported_types: [86, 77],
+        icons: {
+            "86": "/images/payments/icons/visa.png",
+            "77": "/images/payments/icons/mc.png"
+        }
+    }, 761], ["VideoWatchAndScrollVariables", [], {
+        noWNSRemainingTime: "9223372036854775807"
+    }, 1782], ["VideoPlayerShakaExperiments", [], {
+        enableAdaptation: true,
+        streamBufferSize: 7,
+        initialStreamBufferSize: 0.8,
+        switchFromLowQuality: false,
+        cacheDelay: 30,
+        cacheBandwidth: 2000000,
+        firstSwitchInterval: 4000,
+        minSwitchInterval: 5000,
+        minEvalInterval: 1000,
+        bandwidthUpgradeTarget: 0.85,
+        bandwidthDowngradeTarget: 0.95,
+        liveBandwidthUpgradeTarget: 0.85,
+        liveBandwidthDowngradeTarget: 0.95,
+        useStoredBandwidthEstimate: true,
+        useResolutionConstraints: true,
+        resolutionConstraintFactor: 2,
+        maxPrefetchRequestNum: 0,
+        maxPrefetchVideosNum: 2,
+        consolidateFragmentedPrefetchRequest: false,
+        minMpdRefreshInterval: 1000,
+        liveStreamEndTimeout: 60000,
+        enableLiveInterruptionDetection: true,
+        resolveVideoTimeUpdateOnFragmentedTimeRanges: true,
+        liveInterruptionConsecutiveUpdatesWithoutChange: 5,
+        liveInterruptionConsecutiveUpdatesWithChange: 3,
+        liveSendPushHeaders: true,
+        liveStreamBufferSize: 3,
+        liveDefaultStreamEndOffset: 3,
+        liveInitialStreamBufferSize: 0.8,
+        includeStreamBufferSizeInStartOffset: true,
+        improveRebufferLogging: true,
+        addCdnDebugQueryParameters: true,
+        endBufferingOnPlaying: false,
+        liveMaxSegmentsToPush: 2,
+        liveMaxManifestFetchesWithPush: 1,
+        enableVideoDebug: false,
+        liveDynamicStreamBufferSize: 12,
+        reappendInitSegmentAfterAbort: false,
+        fixIsLiveInterruptedBacktest: false,
+        useInlineInitSegment: false,
+        blockPlayRequestOnNetworkError: true,
+        blockPlayRequestHTTPStatusList: {
+            "0": 403,
+            "1": 404,
+            "2": 410
+        },
+        blockAutoplayBandwidthThreshold: 0,
+        liveBlockAutoplayBandwidthThreshold: 250000,
+        currentTimeDuringReadyStateZeroThrows: false,
+        liveAbrSendPushHeaders: true,
+        liveAbrInitialPushRepresentation: "live-md_H264",
+        liveAbrAudioPushRepresentation: "live-md_AAC",
+        blockAutoplayAllowPreloadSettingsChange: false,
+        blockAutoplayUseFastMovingAverage: false,
+        liveAbrAlwaysForceRepresentation: false,
+        jumpToLiveThreshold: 0.5,
+        liveDataFetchMaxRetries: 0,
+        liveSourceBufferClearMaxRetries: 0,
+        useLongCacheForManifest: true,
+        useMpdLinkPreload: false,
+        useNativePromise: false
+    }, 1174], ["VideoPlayerExperiments", [], {
+        redesign: true,
+        noshadow: false,
+        noanim: false,
+        destroyonunload: false,
+        hlsButton: false,
+        universalVolume: false,
+        keepVolumeOnAfterChannelExit: false,
+        fourArrowFullScreen: false,
+        autoplayWhenWNS: false,
+        enforceOnlyOneVideoPlayingWithAudio: true,
+        autoplayUntilHalfGone: false,
+        slidingWNSv3: false,
+        chromecast: true,
+        flashPlayerHtmlControls: false,
+        enableRtmpBuffer: false,
+        rtmpBufferTime: 0,
+        rtmpBufferTimeMax: 0,
+        rtmpImprovePlayback: false,
+        rtmpNoStreamReportedTime: false,
+        rtmpStartTimeFix: true,
+        liveMapAbortLoading: false,
+        cleanupLiveOnLeave: true,
+        useBlurredBars: true,
+        liveAudioViewer: true,
+        webVideosBlockAutoplayWhenOffline: false,
+        delayAutoplayUntilAfterLoad: true,
+        autoplayMaxCallsPerWindow: 0,
+        autoplayThrottleWindow: 0,
+        autoplayThrottleDelay: 0,
+        inlineSoundVisible: false,
+        suspendPageletDisplay: false,
+        suspendPageletDisplayLiveOnly: true,
+        suspendPageletDisplayTimeout: 750,
+        suspendPageletDisplayBufferThreshold: 0.8,
+        maxPageletDisplaySuspensions: 2
+    }, 997], ["BusinessUserConf", [], {}, 1440], ["MercuryParticipantsConstants", [], {
+        UNKNOWN_GENDER: 0,
+        EMAIL_IMAGE: "/images/messaging/threadlist/envelope.png",
+        IMAGE_SIZE: 32,
+        BIG_IMAGE_SIZE: 50
+    }, 109], ["MercuryThreadlistConstants", [], {
+        RECENT_THREAD_OFFSET: 0,
+        JEWEL_THREAD_COUNT: 7,
+        JEWEL_MORE_COUNT: 10,
+        WEBMESSENGER_THREAD_COUNT: 20,
+        WEBMESSENGER_MORE_COUNT: 20,
+        WEBMESSENGER_SEARCH_SNIPPET_COUNT: 5,
+        WEBMESSENGER_SEARCH_SNIPPET_LIMIT: 5,
+        WEBMESSENGER_SEARCH_SNIPPET_MORE: 5,
+        WEBMESSENGER_MORE_MESSAGES_COUNT: 20,
+        RECENT_MESSAGES_LIMIT: 10,
+        MAX_UNREAD_COUNT: 99,
+        MAX_UNSEEN_COUNT: 99,
+        MESSAGE_NOTICE_INACTIVITY_THRESHOLD: 20000,
+        GROUPING_THRESHOLD: 300000,
+        MESSAGE_TIMESTAMP_THRESHOLD: 1209600000,
+        SEARCH_TAB: "searchtab",
+        MAX_CHARS_BEFORE_BREAK: 280
+    }, 96], ["FantailConfig", [], {
+        FantailLogQueue: null
+    }, 1258], ["SoundInitialData", [], {}, 482], ["VideoPlayerHTML5Experiments", [], {
+        newStateChangeCalculation: true,
+        useBanzaiVitalForLive: true,
+        useCurrentTimeAdjustment: true,
+        useCustomContextMenu: true,
+        preloadOnPlay: false,
+        useFixedVolumeLogging: true,
+        fixCurrentTimeType: true,
+        discerningAbandonStallLogging: true,
+        superficialUnpauseEventsFix: true,
+        unloadShouldCancelPendingRequest: false
+    }, 1162], ["JewelConstants", [], {
+        FLYOUT_MAX_HEIGHT: 600
+    }, 1449], ["QuicklingConfig", [], {
+        version: "2751457;
+        0;
+        ",sessionLength: 30,inactivePageRegex: " ^ /(fr/u\\.php | ads / | advertising | ac\\.php | ae\\.php | a\\.php | ajax / emu / (end | f | h)\\.php | badges / | comments\\.php | connect / uiserver\\.php | editalbum\\.php. + add = 1 | ext / | feeds / | help([/?]|$)|identity_switch\\.php|isconnectivityahumanright/ | intern / | login\\.php | logout\\.php | sitetour / homepage_tour\\.php | sorry\\.php | syndication\\.php | webmessenger | /plugins/subscribe | lookback | brandpermissions | gameday | pxlcld | worldcup / map | livemap | work / admin | ([ ^ /]+/) ? dialog) | \\.pdf$ "
+        }, 60],
+        ["VideoPlayerSilvercityConfigs", [], {
+            silvercitySwfUrl: "https: //www.facebook.com/rsrc.php/v2/yo/r/aMgPcflyLWh.swf"
+        }, 1784],
+        ["VideoPlayerPreloadExperiment", [], {
+            preloadVideosCount: 2
+        }, 800],
+        ["VideoPlayerShakaPerformanceLoggerConfig", [], {
+            isSampled: false
+        }, 1760],
+        ["StreamingReactionsAnimationGK", [], {
+            streamingReactionCdnPolling: false
+        }, 1964],
+        ["MessagingConfig", [], {
+            IDLE_CUTOFF: 30000,
+            SEND_CONNECTION_RETRIES: 2,
+            SEND_BATCH_LIMIT: 5,
+            syncFetchRetries: 2,
+            syncFetchInitialTimeoutMs: 1500,
+            syncFetchTimeoutMultiplier: 1.2,
+            syncFetchRequestTimeoutMs: 10000
+        }, 97],
+        ["MercuryServerRequestsConfig", [], {
+            sendMessageTimeout: 45000,
+            msgrRegion: "XTN"
+        }, 107],
+        ["VideoPlayerResizeSettings", [], {
+            disable_flash_set_dimensions: 1
+        }, 1164],
+        ["VideoContextMenuGK", [], {
+            menuRedesign: false
+        }, 1065],
+        ["StreamingReactionsAnimationConfig", [], {
+            DURATIONS_MS: {
+                ANON_WIND_INLINE: 4250,
+                ANON_WIND_CHANNEL: 5750,
+                ANON_WIND_SNOWLIFT: 5000,
+                ANON_WIND_MAX_OFFSET: 750,
+                SHOOT_UP: 400,
+                EXPLOSION: 500,
+                EXPLOSION_PAUSE: 300,
+                FIREWORKS: 400,
+                FIREWORKS_ADJUST: 60,
+                PAUSE: 1200,
+                MORPH: 300,
+                MORPH_PAUSE: 500,
+                FRIEND_WIND: 2750,
+                FRIEND_WIND_INLINE: 2750,
+                FRIEND_WIND_CHANNEL: 4550,
+                FRIEND_WIND_SNOWLIFT: 4000
+            },
+            OFFSETS_PX: {
+                NEGATIVE_X: 60,
+                POSITIVE_X: 20,
+                NEGATIVE_Y: 10,
+                POSITIVE_Y: 0
+            },
+            SCALES: {
+                SHOOT_UP: 0.45,
+                MAX_EXPLOSION: 1.4,
+                MIN_MORPH: 0.85,
+                GLOBAL: 0.5,
+                SCALE_MULTIPLIER: 0.75
+            },
+            CURVES: {
+                ANON_HORIZONTAL: [0.5, 0, 1, 1],
+                FRIEND_WIND_HORIZONTAL: [0.39, 0.14, 1, 0.7],
+                SHOOT_UP_VERTICAL: [0.01, 0.82, 0.17, 1],
+                EXPLOSION_FIREWORKS_SCALE: [0.175, 0.885, 0.32, 1.275],
+                EXPLOSION_SCALE: [0.175, 0.885, 0.32, 2],
+                MORPH_SCALE: [0.175, 0.885, 0.32, 2],
+                FRIEND_WIND_SCALE: [0, 1, 0.2, 1],
+                FRIEND_WIND_VACUUM_ZONE_SCALE: [0.25, 0, 0.6, 0.15]
+            },
+            THROTTLE: {
+                VIEW_UPDATE_INTERVAL: 500,
+                MAX_REACTIONS_ON_SCREEN: 40,
+                MIN_REACTIONS_TO_SHOW: 3,
+                MAX_REACTIONS_PER_VIEW_UPDATE: 15,
+                REACTION_START_ANIMATION_RATE: 200,
+                REACTION_BUFFER_SIZE: 40,
+                REACTION_CLICK_MUTATION_THRESHOLD: 400,
+                REACTION_CLICK_SELF_FIREWORK_ANIMATION_THRESHOLD: 400
+            }
+        }, 1400],
+        ["MNCommerceOrderItemsStatus", [], {
+            NONE: 0,
+            CANCELED: 1
+        }, 884],
+        ["MercuryMessengerBlockingUtils", [], {
+            block_messages: "BLOCK_MESSAGES"
+        }, 872],
+        ["PagesCommerceGating", [], {
+            isNewCheckoutFlowEnabled: true
+        }, 1910],
+        ["ViewportTrackingConfig", [], {
+            record_delay: 300,
+            tracking_duration_config: {
+                min_height_to_be_visible: 200,
+                min_fraction_to_be_visible: 0.5,
+                timetracking_throttling_interval: 100,
+                user_activity_polling_interval: 5000,
+                time_to_be_considered_inactive: 15000,
+                min_time_to_report_immediately: 500,
+                min_fraction_for_additional_view: 0,
+                local_storage_log_min_duration_ms: 10000000,
+                scroll_throttling_interval: 100,
+                mouse_throttling_interval: 100,
+                keyboardThrottlingInterval: 100,
+                active_state_duration: 1000,
+                focused_state_duration: 3500,
+                story_height_diff_to_change_state: 25,
+                discard_vpvd_interval_threshold: 90000
+            },
+            vpv_debug: false,
+            vpvd_debug: false,
+            vpvd_analysis: false,
+            tracking_hooks: false
+        }, 1101],
+        ["MercuryStatusTemplates", ["__inst_7ea77126_0_0", "__inst_7ea77126_0_1"], {
+            ": fb: mercury: error-indicator": {
+                __m: "__inst_7ea77126_0_0"
+            },
+            ": fb: mercury: resend-indicator": {
+                __m: "__inst_7ea77126_0_1"
+            }
+        }, 41],
+        ["LiveMapGK", [], {
+            live_map_public: false,
+            livemap_on_live_endscreen: false
+        }, 1759],
+        ["HighlanderFinchGating", [], {
+            HIGHLANDER_FINCH_GATING: false
+        }, 370],
+        ["NotificationsTabConfig", [], {
+            in_gk_notifications_tab: false,
+            is_work_user: false,
+            in_gk_notifications_tab_www: false,
+            notifs_unseen: {
+                UNSEEN_AND_UNREAD: "",
+                SEEN_BUT_UNREAD: ""
+            }
+        }, 1664],
+        ["TilesMapConfig", [], {
+                OSM_ZOOM_THRESHOLD: 7,
+                OSM_RECTS_RAW: [
+                    [39, 124, 24, 148],
+                    [47, 139, 39, 148],
+                    [51, 82, 45, 92],
+                    [43, 75, 37, 82],
+                    [45, 82, 30, 120],
+                    [30, 97, 20, 105],
+                    [30, 105, 15, 118.1],
+                    [39, 120, 27.1, 124],
+                    [45, 120, 39, 132],
+                    [55, 112, 45, 135],
+                    [30, 85, 29, 95],
+                    [30, 118.1, 24.55, 120],
+                    [27.1, 120, 26, 120.9],
+                    [-6.491895, 140.862305, -9.5, 147],
+                    [-6.491895, 147, -11.630566, 155.957617],
+                    [-1.353223, 140.862305, -6.491895, 155.957617],
+                    [5.381389, 8.698332, -8.748195, 20.000554],
+                    [5.381389, 20.000554, -13.458057, 31.302776],
+                    [7.309793, 170.989319, 6.806464, 171.756836],
+                    [7.47757, 168.533264, 7.142017, 168.840271],
+                    [6.135358, 169.454285, 5.799805, 169.914795],
+                    [11.168652, 166.844727, 11.000876, 166.99823],
+                    [41.290967, 43.439453, 40, 45.61],
+                    [40, 44.33, 39.71, 45.798438],
+                    [39.71, 45.1, 39.474524, 45.798438],
+                    [40.4, 45.61, 40, 45.96],
+                    [39.9, 45.75, 39.26, 46.2],
+                    [39.26, 45.93, 38.869043, 46.2],
+                    [39.64, 46.2, 38.869043, 46.584766],
+                    [15.5, 102.25, 10.41123, 107.653125],
+                    [16.453247, 104.75, 15.5, 107.653125],
+                    [17.7, 104.7, 16.453247, 106.95],
+                    [22.495264, 100.114941, 17.5, 103.884033],
+                    [21, 103.884033, 17.5, 105.768579]
+                ],
+                MIN_SIZE_FOR_ATTRIBUTION: 150,
+                TILE_URL_TEMPLATE: "https: //external.fhyd1-1.fna.fbcdn.net/map_tile.php?region=IN&v=27&osm_provider=3&x={
+                x
+            } &
+            y = {
+                y
+            } &
+            z = {
+                z
+            }
+            ",STATIC_MAP_URL_TEMPLATE: "
+            https: //external.fhyd1-1.fna.fbcdn.net/static_map.php?region=IN&v=27&osm_provider=3",LOGO: {
+            url: "/images/here_maps/here_maps_logo_24px.png", width: 24, height: 24
+        },
+        ZOOM_RANGE: {
+            MIN: 1,
+            MAX: 19
+        },
+        HERE_MAP_REPORTER_URL: "https: //mapfeedback.here.com/?appId=ZOdjOwwG7wKMxvmMewWg",
+        OSM_MAP_REPORTER_URL: "https: //www.openstreetmap.org/fixthemap/",
+        OSM_MAP_MIN_ZOOM_TO_REPORT_ISSUE: 12,
+        DEVICE_PIXEL_RATIO: 1,
+        LIVE_MAP_VERSION: "7"
+    }, 664], ["VideoChannelViewVariables", [], {
+        defaultStoriesToLoad: 3,
+        dark_mode: true,
+        autoplaySettingDisabled: false,
+        thumbnailRedesign: false,
+        dynamicAspectRatios: true,
+        wnsFromChannel: false,
+        preopenUFI: false,
+        channelRedesign: false,
+        channelPageTransitions: false
+    }, 989], ["ChannelInitialData", [], {
+        channelConfig: {
+            IFRAME_LOAD_TIMEOUT: 30000,
+            P_TIMEOUT: 30000,
+            STREAMING_TIMEOUT: 70000,
+            PROBE_HEARTBEATS_INTERVAL_LOW: 1000,
+            PROBE_HEARTBEATS_INTERVAL_HIGH: 3000,
+            MTOUCH_SEND_CLIENT_ID: 1,
+            user_channel: "p_100011408476025",
+            seq: 0,
+            retry_interval: 0,
+            max_conn: 6,
+            ping_to_pull_reconnect_ratio: 0.5,
+            config_refresh_seconds: 1200,
+            shutdown_recovery_interval_seconds: 30,
+            fantail_queue_capacity: 100,
+            proxy_down_delay_millis: 600000,
+            partition: -2,
+            host: "edge-chat",
+            user: 100011408476025,
+            port: null,
+            path: "/iframe/12",
+            resources: ["https: //www.facebook.com/rsrc.php/v3/yf/r/4wlCIV7lNPG.js", "https: //www.facebook.com/rsrc.php/v3/yn/r/2zLUnrAtxJE.js", "https: //www.facebook.com/rsrc.php/v3iWxT4/yh/l/en_GB/UjLTv6LlGZ2.js", "https: //www.facebook.com/rsrc.php/v3iE534/yY/l/en_GB/EqQAT5xukyd.js", "https: //www.facebook.com/rsrc.php/v3i-b04/yM/l/en_GB/El8Nq9Z2TIQ.js", "https: //www.facebook.com/rsrc.php/v3/yW/r/MqTsIEAyHgZ.js"],
+            active_config_refresh: false,
+            shutdown_recovery_enabled: true,
+            msgr_region: "XTN",
+            viewerUid: "100011408476025",
+            domain: "facebook.com",
+            forceIframe: false,
+            tryStreaming: true,
+            reduceTimeTravel: true,
+            skipTimeTravel: false,
+            uid: "100011408476025",
+            sequenceId: 80
+        },
+        state: "init!",
+        reason: null
+    }, 143], ["XHPTemplateProcessor", [], {
+        processor: null
+    }, 1167], ["AppsDivebarConfigData", [], {
+        hidden: true
+    }, 314], ["PinnedConversationNubsConfig", [], {
+        isEnabled: false,
+        persistenceEnabled: false,
+        pinnedToLeft: false,
+        sharedNotificationsReadStateEnabled: false,
+        userSettingsIsEnabled: false
+    }, 1904], ["FbtraceForcedByServer", [], {
+        forced: false
+    }, 140], ["DockTabsViewportCalculatorConfig", [], {
+        FantaTabs: true
+    }, 1763], ["MercurySoundsConfig", [], {
+        camera_shutter_click_url: "https: //www.facebook.com/rsrc.php/yy/r/d4yuc1_LjMB.mp3",
+        hot_like_grow_mp3_url: "https: //www.facebook.com/rsrc.php/yf/r/XyTteqB51ob.mp3",
+        hot_like_pop_mp3_url: "https: //www.facebook.com/rsrc.php/yM/r/1Vcznk-uUR-.mp3",
+        hot_like_outgoing_small_mp3_url: "https: //www.facebook.com/rsrc.php/yP/r/NUhwZHJ8fUZ.mp3",
+        hot_like_outgoing_medium_mp3_url: "https: //www.facebook.com/rsrc.php/y8/r/a6onsWOBhsg.mp3",
+        hot_like_outgoing_large_mp3_url: "https: //www.facebook.com/rsrc.php/yL/r/qi5pP1651Bi.mp3",
+        hot_like_grow_ogg_url: "https: //www.facebook.com/rsrc.php/yU/r/9LbkezrNCLQ.ogg",
+        hot_like_pop_ogg_url: "https: //www.facebook.com/rsrc.php/y5/r/ouE5maL6ab4.ogg",
+        hot_like_outgoing_small_ogg_url: "https: //www.facebook.com/rsrc.php/y0/r/SbSSjevXDC6.ogg",
+        hot_like_outgoing_medium_ogg_url: "https: //www.facebook.com/rsrc.php/yf/r/TNPmLer_j2q.ogg",
+        hot_like_outgoing_large_ogg_url: "https: //www.facebook.com/rsrc.php/yf/r/8SNnbHD2mgk.ogg",
+        settings_preview_sound_mp3_url: "https: //www.facebook.com/rsrc.php/y-/r/LtN9YjGtFwE.mp3",
+        settings_preview_sound_ogg_url: "https: //www.facebook.com/rsrc.php/yG/r/T-VjgbwgLkm.ogg"
+    }, 1596], ["JpegResizeWorkerResource", [], {
+        url: "https: //www.facebook.com/rsrc.php/v3/yQ/r/qbGdqh4d-jw.js",
+        name: "JpegResizeWorkerBundle"
+    }, 274], ["JpegResizerConfig", [], {
+        isGKBlacklisted: false
+    }, 313], ["MercuryConstants", [], {
+        AttachmentMaxSize: 26214400
+    }, 36], ["MessagingThreadCustomizationConfig", [], {
+        colorChoices: ["#44bec7", "#ffc300", "#fa3c4c", "#d696bb", "#6699cc", "#13cf13", "#ff7e29", "#e68585", "#7646ff", "#20cef5", "#67b868", "#d4a88c", "#ff5ca1", "#a695c7"],
+        colorNames: {
+            "#0084ff": "Messenger Blue",
+            "#44bec7": "Viking",
+            "#ffc300": "Golden Poppy",
+            "#fa3c4c": "Radical Red",
+            "#d696bb": "Shocking",
+            "#6699cc": "Picton Blue",
+            "#13cf13": "Free Speech Green",
+            "#ff7e29": "Pumpkin",
+            "#e68585": "Light Coral",
+            "#7646ff": "Medium Slate Blue",
+            "#20cef5": "Deep Sky Blue",
+            "#67b868": "Fern",
+            "#d4a88c": "Cameo",
+            "#ff5ca1": "Brilliant Rose",
+            "#a695c7": "Biloba Flower",
+            "#000000": "Black"
+        },
+        emojiChoices: ["✌", "😂", "😝", "😁", "😱", "👉", "🙌", "🍻", "🔥", "🌈", "☀", "🎈", "🌹", "💄", "🎀", "⚽", "🎾", "🏁", "😡", "👿", "🐻", "🐶", "🐬", "🐟", "🍀", "👀", "🚗", "🍎", "💝", "💙", "👌", "❤", "😍", "😉", "😓", "😳", "💪", "💩", "🍸", "🔑", "💖", "🌟", "🎉", "🌺", "🎶", "👠", "🏈", "⚾", "🏆", "👽", "💀", "🐵", "🐮", "🐩", "🐎", "💣", "👃", "👂", "🍓", "💘", "💜", "👊", "💋", "😘", "😜", "😵", "🙏", "👋", "🚽", "💃", "💎", "🚀", "🌙", "🎁", "⛄", "🌊", "⛵", "🏀", "🎱", "💰", "👶", "👸", "🐰", "🐷", "🐍", "🐫", "🔫", "👄", "🚲", "🍉", "💛", "💚"],
+        emojiChoiceCodes: ["270c", "1f602", "1f61d", "1f601", "1f631", "1f449", "1f64c", "1f37b", "1f525", "1f308", "2600", "1f388", "1f339", "1f484", "1f380", "26bd", "1f3be", "1f3c1", "1f621", "1f47f", "1f43b", "1f436", "1f42c", "1f41f", "1f340", "1f440", "1f697", "1f34e", "1f49d", "1f499", "1f44c", "2764", "1f60d", "1f609", "1f613", "1f633", "1f4aa", "1f4a9", "1f378", "1f511", "1f496", "1f31f", "1f389", "1f33a", "1f3b6", "1f460", "1f3c8", "26be", "1f3c6", "1f47d", "1f480", "1f435", "1f42e", "1f429", "1f40e", "1f4a3", "1f443", "1f442", "1f353", "1f498", "1f49c", "1f44a", "1f48b", "1f618", "1f61c", "1f635", "1f64f", "1f44b", "1f6bd", "1f483", "1f48e", "1f680", "1f319", "1f381", "26c4", "1f30a", "26f5", "1f3c0", "1f3b1", "1f4b0", "1f476", "1f478", "1f430", "1f437", "1f40d", "1f42b", "1f52b", "1f444", "1f6b2", "1f349", "1f49b", "1f49a"],
+        maxNicknameLength: 50
+    }, 1293], ["NFXChatHeadGK", [], {
+        result: false
+    }, 847], ["WorkFileUploadsGating", [], {
+        canUploadFiles: true
+    }, 1131], ["MercuryAttachmentTemplates", ["__inst_7ea77126_0_2", "__inst_7ea77126_0_3"], {
+        ": fb: mercury: upload-file-row": {
+            __m: "__inst_7ea77126_0_2"
+        },
+        ": fb: mercury: share-link-row": {
+            __m: "__inst_7ea77126_0_3"
+        }
+    }, 34], ["ChatTabTemplates", ["__inst_7ea77126_0_4", "__inst_7ea77126_0_5", "__inst_7ea77126_0_6", "__inst_7ea77126_0_7", "__inst_7ea77126_0_8", "__inst_7ea77126_0_9"], {
+        ": fb: chat: tab: selector": {
+            __m: "__inst_7ea77126_0_4"
+        },
+        ": fb: chat: tab: selector: item": {
+            __m: "__inst_7ea77126_0_5"
+        },
+        ": fb: mercury: chat: tab-sheet: add-friends": {
+            __m: "__inst_7ea77126_0_6"
+        },
+        ": fb: mercury: chat: tab-sheet: add-friends-empty-tab": {
+            __m: "__inst_7ea77126_0_7"
+        },
+        ": fb: mercury: chat: multichat-tab": {
+            __m: "__inst_7ea77126_0_8"
+        },
+        ": fb: mercury: chat: user-tab": {
+            __m: "__inst_7ea77126_0_9"
+        }
+    }, 15], ["MercuryDataSourceWrapper", ["__inst_fa0b3e92_0_0", "__inst_fa0b3e92_0_1"], {
+        chat_typeahead_source: {
+            __m: "__inst_fa0b3e92_0_0"
+        },
+        chat_add_people_source: {
+            __m: "__inst_fa0b3e92_0_1"
+        }
+    }, 37], ["MercuryTypeaheadTemplates", ["__inst_7ea77126_0_a", "__inst_7ea77126_0_b", "__inst_7ea77126_0_c", "__inst_7ea77126_0_d"], {
+        ": fb: mercury: typeahead": {
+            __m: "__inst_7ea77126_0_a"
+        },
+        ": fb: mercury: tokenizer": {
+            __m: "__inst_7ea77126_0_b"
+        },
+        ": fb: mercury: typeahead: header": {
+            __m: "__inst_7ea77126_0_c"
+        },
+        ": fb: mercury: typeahead: result": {
+            __m: "__inst_7ea77126_0_d"
+        }
+    }, 43], ["MessengerBotIDs", [], {
+        "499715295": "499715295",
+        "499716323": "499716323",
+        "499716324": "499716324",
+        "499717200": "499717200",
+        "499717276": "499717276",
+        "499717946": "499717946",
+        "499718005": "499718005",
+        "499720900": "499720900",
+        "499720951": "499720951",
+        "499840537": "499840537",
+        "499723935": "499723935",
+        "499848858": "499848858",
+        "499725568": "499725568",
+        "499726259": "499726259",
+        "499714787": "499714787",
+        "499726507": "499726507",
+        "499726983": "499726983",
+        "499728159": "499728159",
+        "499722804": "499722804",
+        "526337780862850": "526337780862850",
+        "1025752854150595": "1025752854150595",
+        "499721406": "499721406",
+        "499609012": "499609012",
+        "499728768": "499728768",
+        "1715533285389564": "1715533285389564",
+        "499729428": "499729428",
+        "499615198": "499615198",
+        "181909022151941": "181909022151941",
+        "552273251645839": "552273251645839",
+        "499626465": "499626465",
+        "499626402": "499626402",
+        "499726258": "499726258",
+        "499629609": "499629609",
+        "448809265285830": "448809265285830",
+        "1759114867688028": "1759114867688028",
+        "631878860303149": "631878860303149",
+        "684039011776977": "684039011776977"
+    }, 1630], ["MercuryEmployeeDualityPreferences", [], {
+        duality_warning_gk_check: false
+    }, 1636], ["NotificationBeeperItemRenderersList", ["SyncRequestNotificationBeeperItemContents.react", "PageLiveInsightsItemContents.react"], {
+        SyncRequestNotificationBeeperItemContents: {
+            __m: "SyncRequestNotificationBeeperItemContents.react"
+        },
+        PageLiveInsightsItemContents: {
+            __m: "PageLiveInsightsItemContents.react"
+        }
+    }, 364], ["FBRTCExperimentsConfig", [], {
+        rtc_web_start_call_without_camera: {
+            params: {
+                can_call: "no"
+            },
+            auto_exposure: true,
+            in_experiment: true
+        },
+        rtc_web_video_quality_3: {
+            params: {
+                renegotiate_to_hd: "no"
+            },
+            auto_exposure: false,
+            in_experiment: true
+        },
+        rtc_browser_use_h264: {
+            params: {
+                allow_h264: "yes"
+            },
+            auto_exposure: true,
+            in_experiment: true
+        }
+    }, 986], ["SimpleNUXMessageTypesToShow", [], {
+        "1733450480268575": "AD_CANVAS_EDITOR_TOOLBAR_NUX",
+        "1088399387945919": "AD_CANVAS_EDITOR_SWIPE_TO_OPEN",
+        "902884353135091": "AD_STUDY_POWER_CALCULATOR_V2_NUX",
+        "1789086031311051": "ADS_AUDIENCE_SHARING_NUX",
+        "849351935208523": "ADS_BUSINESS_ACTIVITY_FEED_NUX",
+        "1817623761817619": "ADS_CONVERSION_WINDOW_DROPDOWN_NUX",
+        "798810653560813": "ADS_CF_LOCAL_TARGETING_NUX",
+        "685948288232047": "ADS_DATE_COMPARISON_DATE_PICKER_NUX",
+        "1058542194184213": "ADS_DPA_OFFSITE_CONVERSION_DEFAULT",
+        "180996948924978": "ADS_DYNAMIC_LOCAL_AWARENESS_UPSELL",
+        "1535166470146858": "ADS_DYNAMIC_LOCAL_AWARENESS_USE_TOKENS",
+        "299755653712594": "ADS_STORE_VISITS_OBJECTIVE_UPSELL",
+        "627419454089322": "ADS_TARGETING_BEST_PERFORMING_DESCRIPTOR",
+        "951445441641663": "ADS_TARGETING_CUSTOM_AUDIENCE_CREATION_MENU",
+        "476707339197159": "ADS_TARGETING_CUSTOM_AUDIENCE_NUX",
+        "218481895201104": "ADS_TARGETING_HINT",
+        "1103767696336249": "ADS_TARGETING_PAGE_LAL_NUX",
+        "1719099461698096": "ADS_TARGETING_SUGGESTION_NUX",
+        "499230403617848": "ADS_WCA_ADVANCED_NUX",
+        "1632649840328509": "APP_REVIEW_COMMENTS_NUX",
+        "1734071506875325": "ARCADE_RHC_DOWNLOAD_UNIT_NUX",
+        "387683724758581": "AUDIENCE_INLINE_SAVE_NUX",
+        "256331691368624": "AVERAGE_PRICE_PACING_NUX",
+        "149361148834083": "BOOSTED_COMPONENT_CTA_SELECTOR_NUX",
+        "1109521299111498": "BOOSTED_COMPONENT_INSTAGRAM_LIBRARY",
+        "176805122743554": "BOOSTED_LOCAL_AWARENESS_SAVE_CTA_NUX",
+        "1123576301036863": "BOOST_POST_DELIVERY_TYPE_NUX",
+        "1719220711641440": "BULK_EDITING_PREVIEW",
+        "788423921300532": "CANVAS_DRAGGABLE_COMPONENTS",
+        "130406080680692": "CF_BRAND_STUDY_NUX",
+        "1630553150535001": "CF_DEFAULT_MPA_NUX",
+        "707154356087550": "CF_SLIDESHOW_OBJECTIVE_NUX",
+        "762809470522872": "CIC_CAROUSEL_CARD",
+        "434002046758336": "CONNECTIONS_SECTION",
+        "1540728442877433": "CONNECTIONS_SECTION_WITHOUT_VIDEO",
+        "558011581034402": "CREATE_NEW_ENGAGEMENT_AUDIENCE_NUX",
+        "886513371441875": "CREATE_SLIDESHOW_ADS_NUX",
+        "202253916649690": "CRISIS_MARK_OTHER_SAFE",
+        "653763228018496": "CRISIS_MARK_SELF_SAFE",
+        "160369447652922": "CRM_APP_NUX",
+        "1119009298165882": "CRM_FEED_NAV_NUX",
+        "1770321323216424": "CRM_FEED_RECS",
+        "1635332980099458": "CRM_FEED_AD_DISAPPROVAL",
+        "1372832786061145": "CRM_FEED_AD_DISAPPROVAL_TOUR",
+        "1267729259935542": "CRM_FEED_FILTER_COLLAPSE",
+        "1790788867842141": "CRM_FEED_ORG_PAGE",
+        "138431499974519": "CRM_FEED_PLAN_PAGE",
+        "506183136220196": "CRM_WEBAPP_BUNNY",
+        "279531125724087": "CRM_ORG_FINANCIALS",
+        "1333265340036015": "CMS_EDITOR_AUTOSAVE_INTRO",
+        "1816847535213663": "CMS_EDITOR_DUPLICATE_BUTTON",
+        "1315068478533683": "CMS_EDITOR_KEYBOARD_SHORTCUTS_BUTTON",
+        "543132379216561": "CMS_EDITOR_ERROR_MESSAGE_RED_DOT",
+        "1765875226969195": "CMS_SEARCH_COMPONENT_NUX",
+        "587356531436785": "CMS_SEARCH_NUX_TOUR",
+        "314858175560645": "CMS_SNIPPETS_BUTTON_NUX",
+        "1064871376962611": "CMS_TAG_EXPLORER_NUX_TOUR",
+        "1747146378889382": "CRST_MOBILE_PREVIEW",
+        "904117749711668": "CRST_MOBILE_PREVIEW_INTRO",
+        "502885896576282": "CRST_MOBILE_PREVIEW_SHARED",
+        "213694639031398": "CRST_SHARE_CREATIVE",
+        "1802127330074556": "CRST_WELCOME_HERO",
+        "1682721005388364": "CTSCAN_SCANLAB_TEST_STATUS_NUX",
+        "1018516858267721": "CTSCAN_SCANLAB_DIAGNOSTIC_LINK_NUX",
+        "1687632451557881": "CTSCAN_SCANLAB_EXP_LINK_NUX",
+        "1413329522299861": "CTSCAN_SCANLAB_TEST_LINK_NUX",
+        "128345940926172": "DAILY_SHOW_NUX_TOUR",
+        "772951722838986": "DEVICE_LOGIN_CLOSE_BUTTON_NUX",
+        "646184548874131": "DEVSITE_ADNW_BUNDLE",
+        "1373933542651411": "DEVSITE_ADNW_MEDIATION",
+        "1159456270801554": "DEVSITE_ADNW_MEDIATION_LEGAL",
+        "490448847821290": "DEVSITE_APP_DASHBOARD_ADD_INTEGRATION_NUX",
+        "545627442289387": "DEVSITE_APP_DASHBOARD_FB_ANALYTICS_NUX",
+        "1103088809711938": "DEVSITE_BUGS_DETAILS_SUBSCRIBE_BUTTON",
+        "254472424907417": "DEVSITE_BUGS_HOME_SEARCH_PRESELECT_APP",
+        "810965742370194": "DEVSITE_BUGS_HOME_SEARCH_APPS",
+        "988491391232062": "DEVSITE_BUGS_HOME_SEARCH_TAGS",
+        "1174329739252695": "DEVSITE_BUGS_HOME_SELECT_TAGS",
+        "1814715518773401": "DEVSITE_BUGS_INPAGE_SUBMIT_SHORTCUT_NUX",
+        "289329894751031": "DEVSITE_BUGS_SUBSCRIBE_MESSENGER",
+        "274822676191082": "DIA_PLUGIN_INTRODUCTION",
+        "301320016925123": "DIRECT_SUPPORT_SUBSCRIBE_MESSENGER",
+        "386619794795638": "DR_RUNBOOK_NUX",
+        "1559597167698757": "ENGAGEMENT_AUDIENCE_NUX",
+        "874591682650805": "FBLEARNER_CLONE_HISTORY",
+        "1555701701416433": "FBLEARNER_DAG",
+        "1724118081167329": "FBLEARNER_OP_OUTPUTS",
+        "1184494798247928": "FBLEARNER_RECURRING_HISTORY",
+        "1031446560269781": "FBLEARNER_RECURRING_JOB_EDITOR",
+        "330315104023633": "FBLEARNER_START_RECURRING",
+        "495303504008626": "FBLEARNER_OPT_OUT_SURVEY",
+        "1190201994365649": "FBLN_BATCH",
+        "1771536866409625": "FBLN_CARD",
+        "1037460092995696": "FBLN_CARD_HOME",
+        "1535579660071386": "FBLN_COMPOSITION",
+        "1729257784010524": "FBLN_CUSTOM_FIELDS",
+        "1036165669806999": "FBLN_MODEL_TYPE",
+        "1711182809156646": "FBLN_PROGRESS",
+        "1554116508221625": "FBLN_RECURRING",
+        "1720975784858689": "FBLN_SEARCH",
+        "1530641490579146": "FBLN_SIDEBAR",
+        "474252306099876": "FBLN_UNSEEN",
+        "247925048905303": "FBLN_CHILDREN_SEARCH",
+        "211921519225088": "FBLN_RESUME_BUTTON",
+        "1696859960638051": "FBLN_RESUME_CHECK",
+        "991989547582216": "FEED_ONLY_BOOKMARK_NUX",
+        "833032883476599": "FLEXIBLE_TARGETING_PRESENTER_TIP",
+        "967459770042560": "FUNDRAISER_UPSELL",
+        "523608931147539": "GEO_TARGETING_BULK_INPUT",
+        "771095616319245": "GEO_TARGETING_V2",
+        "595721780628097": "GROUPS_GAMES_NUX",
+        "1154491687933286": "GROUPS_RHC_LEADERBOARD_NUX",
+        "1536899146616610": "HASHTAG_SUBSCRIPTION_FOR_PAGES_NUX",
+        "651145288381986": "CMS_HISTORY_REVERT_LINK_NUX",
+        "816296281804339": "INTERNAL_NOTIFICATIONS_DESKTOP",
+        "1715114275421616": "INTERNAL_NOTIFICATIONS_DESKTOP_PROMPT",
+        "255236364848435": "INTERNAL_NOTIFICATIONS_JEWEL",
+        "1768833223401913": "INTERVIEW_FEEDBACK_REDESIGN",
+        "1781774222098902": "INTERVIEW_FEEDBACK_NO_BUTTON",
+        "327122534320675": "INTERVIEW_TRACKER_EXPORT",
+        "273610786328981": "JOB_POSTING_COMPOSER",
+        "1660354914292411": "LEAD_GEN_FORM_ARCHIVING_NOW_AVAILABLE_NUX",
+        "888403264626566": "LEAD_GEN_FORM_BUILDER_SAVE_BUTTON_NUX",
+        "301839103480385": "LIVE_MAP_NEW_USER_NUX",
+        "1499779126920941": "M_ADS_MANAGER_SPLASH",
+        "572669026227273": "MPP_SUPPORT_VIDEO_CALL_BUTTON_NUX",
+        "1641614852827045": "MULTIKEY_CUSTOM_AUDIENCE_UPLOADER_DATA_FORMATTING_GUIDE_NUX",
+        "1699194450407946": "OFFERS_COMPOSER_STEPPER_NUX",
+        "1760209817527843": "OFFERS_V1_TO_V2_MIGRATION_PAGES_COMPOSER_NUX",
+        "1732891256985325": "OFFERS_V2_MIGRATION_ADS_MANAGER_NUX",
+        "791461857621605": "OFFERS_V2_PAGES_COMPOSER_NUX",
+        "215849248831991": "OMNIM_SUGGESTIONS",
+        "1227619203963447": "OPTIMAL_SOLUTION_NUX",
+        "1035521976533597": "OXSIGHTS_NEW_UI",
+        "295779470545961": "OXYGEN_INSIGHT_LIFECYCLE",
+        "1257048171004972": "PAGES_COMMERCE_INVOICE_BUTTON_NUX",
+        "1598865370326347": "PAGES_MESSAGING_DRAGDROP",
+        "412162028994818": "PE_LIVE_OPT_IN",
+        "1010972272292143": "PE_SLIDESHOW_NUX",
+        "1037667402955195": "PMT_CALIBRATION_BOARD_NUX",
+        "167771400339175": "PMT_OFFCYCLE_FEEDBACK_NUX",
+        "424283191075640": "PROFILE_BADGE_NUX",
+        "358122467862686": "PULSE_ACTION_PLAN_NUX",
+        "1797422680476368": "PULSE_IMPORTANCE_NUX",
+        "1013627052117051": "PULSE_SUMMARY_NUX",
+        "204937776623471": "RABBIT_MAGIC_PILL_CLICK_NUX",
+        "574882689339635": "RECRUITING_EMPLOYEE_OUTREACH",
+        "274528912909071": "RECRUITING_SEARCH_V2_LAUNCH",
+        "649905405114622": "SAVE_NEW_AUDIENCE",
+        "872099406242148": "SCHEDULR_FIND_BOOK_NUX",
+        "1747252342174304": "SCUBA_REACT_VIEWS_NUX",
+        "232465750506350": "SIGNAL_INFRA_PHABRICATOR_BUGNUB_NUX",
+        "281718955562986": "SIGNAL_INFRA_KILL_COMPLETE_TEST_RUN_NUX",
+        "591270497678719": "SHUTTLE_CALTRAIN",
+        "827618977337954": "SLIDESHOW_FRAMES_TAB_NUX",
+        "1800156596939976": "SLIDESHOW_MUSIC_TAB_NUX",
+        "1709346835970021": "SOURCING_TOOL_TITLE_SEARCH",
+        "514954375356275": "SOURCING_TOOL_CANDIDATE_BOOKMARK",
+        "1802899719924551": "SOURCING_TOOL_DATA_MODEL_REFACTOR",
+        "1622419514744181": "SPHERICAL_SINGLETON_NUX",
+        "1739478522971904": "SRT_BUG_NUB_INTRODUCTION",
+        "217753298661464": "SRT_FEEDBACK",
+        "443509369110145": "TEST_MESSAGE",
+        "1546366805667718": "TALENT_SEARCH_FILTER_COLUMN",
+        "1534092750231532": "TALENT_SEARCH_SEARCH_BAR",
+        "1705997706317539": "TALENT_SEARCH_CROSS_PROMO",
+        "224502567921015": "TOUCHSTONE_AD_ACCOUNT",
+        "1546296168996500": "TOUCHSTONE_RECOMMENDATION_NUX",
+        "509312249256844": "TOUCHSTONE_VERTICALS",
+        "479311678938767": "TOUCHSTONE_SCHEDULE",
+        "481639071983177": "USE_EXISTING_AUDIENCE",
+        "272479649752150": "IG_AUDIENCE_INSIGHTS_POST",
+        "654665854681285": "IG_AUDIENCE_INSIGHTS_ACCOUNT_WHITELIST",
+        "1065168483565624": "IG_AUDIENCE_INSIGHTS_GENERIC_PDF",
+        "1739956989579937": "IG_AUDIENCE_INSIGHTS_EXCLUDE_POST",
+        "675352559307348": "IG_AUDIENCE_INSIGHTS_CITIES_TOGGLE",
+        "1558071707831814": "IG_AUDIENCE_INSIGHTS_INTEREST_FILTER",
+        "187516358318534": "IG_AUDIENCE_INSIGHTS_TIME_ONLINE",
+        "1288695684498584": "IG_AUDIENCE_INSIGHTS_TIME_SPENT",
+        "892488757550990": "IG_AUDIENCE_INSIGHTS_CUSTOM_SEGMENT",
+        "886330728179119": "WORK_COMMUNITY_CENTER",
+        "1168006489923660": "WORK_SIDEBAR_TOP_GROUPS",
+        "468505376681705": "MULTILINGUAL_COMPOSER_NUX",
+        "313627252311314": "COMMERCE_MN_BOT_NUX",
+        "1435659519793420": "VIDEO_REMOTE_UPLOAD",
+        "1368283853185346": "INTERNAL_FEEDBACK_SURVEY",
+        "158683444572274": "SRT_LIVE_COUNTER_INTRODUCTION",
+        "114819065646369": "SIGNALS_OEM_GET_STARTED",
+        "1705925373060918": "SIGNALS_OEM_AUDIENCE_CREATION_BUTTON",
+        "350476588659935": "SIGNALS_OEM_CUSTOM_CONVERSION_CREATION_BUTTON",
+        "191254837978371": "SRT_REVIEW_QUEUE_ACTIONED_JOB_STATUS",
+        "564937670372078": "CREATIVE_CANVAS_TEMPLATE_NUX",
+        "176652666130517": "RIGHTS_MANAGER_EXPORT_DATA",
+        "1344564208895744": "FBR_FULLSCREEN_NUX",
+        "1090012127788963": "JOB_BROWSER_CREATE_BUTTON_NUX"
+    }, 1203], ["NotificationBeeperPinnedPostLoader", [], {
+        payload: {
+            nodes: [],
+            servertime: 1482309329
+        }
+    }, 408], ["BanzaiVitalWWW", [], {
+        useVital: true
+    }, 1781], ["TimeSpentConfig", [], {
+    "0_delay": 0,
+    "0_timeout": 8,
+    delay: 200000,
+    timeout: 64
+    }, 142]]
+    }, is_last: true, allResources: ["Rp3Bl", "tvKnZ", "Vx1iU", "smMCF", "8Pe+I", "Za7Nn", "6N7dp", "q5KTO", "tnJde", "T3yqd", "9gO6U", "jC5nR", "/yAfC", "+4+NJ", "RqZjE", "6zoRa", "wT9ip", "NFHnz", "+eHbj", "UXKU3", "0lJzc", "k7S6v", "POrfq", "sMTcM", "xo1MV", "ge+mS", "P/mr5"], displayResources: ["Vx1iU", "smMCF", "8Pe+I", "6N7dp", "q5KTO", "tnJde", "/yAfC", "wT9ip", "0lJzc", "P/mr5"], the_end: true
+    }
+    )
+    }
+    ), "onPageletArrive last_response", {
+        "root": true,
+        "pagelet": "last_response"
+    }
+    )();
